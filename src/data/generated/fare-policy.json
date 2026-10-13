@@ -1,0 +1,87 @@
+{
+  "$comment": [
+    "Dhaka city bus fares are set by BRTA as a RATE PER KILOMETRE, not as a price",
+    "per route. This file records that rate with its sources, because it is the",
+    "only real, citable fare data that exists for these buses.",
+    "",
+    "This is deliberately separate from data/overrides/fares.json. That file holds",
+    "per-bus fares transcribed by a human from the BRTA fare chart. This file holds",
+    "the published rate used to CALCULATE an estimate when no transcribed fare",
+    "exists. An estimate is always labelled as an estimate, never as a fare.",
+    "",
+    "To change the rate: update it here, re-run the build, and check the sources",
+    "still say the same thing. A stale rate is worse than a missing one, so",
+    "`effectiveFrom` is compared against a review interval in the build."
+  ],
+  "policyId": "brta-city-bus-2026-09",
+  "effectiveFrom": "2026-09-21",
+  "announcedOn": "2026-09-22",
+  "area": "Dhaka metropolitan area",
+  "appliesTo": {
+    "vehicle": "ordinary diesel-powered, non-AC city bus",
+    "note": "AC bus fares are NOT set by the government, and neither are goods vehicles. The rate also does not apply to gas-powered (CNG) buses."
+  },
+  "rate": {
+    "cityBus": {
+      "takaPerKm": 2.7,
+      "previous": 2.53,
+      "changePaisa": 17
+    },
+    "minibus": {
+      "takaPerKm": 2.6,
+      "previous": 2.43,
+      "changePaisa": 17
+    }
+  },
+  "minimumFareTaka": 10,
+  "enforcement": {
+    "level": "poor",
+    "note": "Reported at the time of the increase: the government sets fares for non-AC city buses and minibuses, but these are frequently not followed, and overcharging is widely reported. Riders often pay more than the official rate."
+  },
+  "sources": [
+    {
+      "publisher": "The Daily Star / Prothom Alo (English)",
+      "title": "Bus fares increased by 17 paisa per km",
+      "url": "https://en.prothomalo.com/bangladesh/k3n86iluhg",
+      "supports": [
+        "rate.cityBus",
+        "rate.cityBus.previous",
+        "appliesTo",
+        "enforcement"
+      ],
+      "verified": "2026-09-28"
+    },
+    {
+      "publisher": "The Financial Express",
+      "title": "Gazette issued raising bus, minibus fares by Tk 0.17 per km",
+      "url": "https://thefinancialexpress.com.bd/national/gazette-issued-raising-bus-fares-by-tk-017-per-km",
+      "supports": [
+        "rate.cityBus",
+        "rate.minibus",
+        "minimumFareTaka"
+      ],
+      "verified": "2026-09-28"
+    },
+    {
+      "publisher": "TBS News",
+      "title": "City bus fares rise to Tk2.70/km, long-route fares Tk2.40",
+      "url": "https://www.tbsnews.net/bangladesh/transport/city-bus-fares-rise-tk270km-long-route-fares-tk240-after-fuel-price-hike",
+      "supports": [
+        "rate.cityBus"
+      ],
+      "verified": "2026-09-28"
+    }
+  ],
+  "rejectedSources": [
+    {
+      "publisher": "barta24",
+      "url": "https://barta24.com/english/details/national-en/284467",
+      "quoted": "The minimum fare has been set at Tk 35, up from Tk 32.",
+      "whyRejected": "This is an OLDER gazette for long-distance and inter-district buses (it also quotes a 23 paisa increase over the first 100 km). It does not govern Dhaka metropolitan city buses. Using Tk 35 as the city minimum would have overstated every short trip. Recorded here so the number is not 'rediscovered' and misused later."
+    }
+  ],
+  "rounding": {
+    "toTaka": true,
+    "note": "BRTA publishes the rate in paisa, but fares are collected in whole taka, so the estimate is rounded to the nearest taka. Rounding to the nearest 5 is common in practice but is not official, so it is not applied here."
+  }
+}

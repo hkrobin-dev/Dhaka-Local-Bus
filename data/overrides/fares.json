@@ -1,0 +1,32 @@
+{
+  "_comment": "Fares, keyed by bus id (the slug of the bus English name). An entry here is a fare a person decided on: either transcribed by hand from BRTA's official list (see _brta) or accepted from rider reports that agreed, via /fares/review with the admin token. A bus with no entry is shown as 'fare not verified' in the UI. NEVER invent a number here: a wrong fare sends someone to the wrong bus or makes them short of cash. The 'source' field is what keeps a rider-agreed number from being presented as if the government published it, so do not set it to 'brta' unless you actually read it off the BRTA list.",
+  "_brta": {
+    "page": "https://brta.gov.bd/pages/static-pages/6922de89933eb65569e1b600",
+    "titleBn": "ঢাকা মেট্রো এলাকার বাস ভাড়ার তালিকা",
+    "lastUpdatedBn": "২৩ সেপ্টেম্বর ২০২৬",
+    "format": "scanned PDF, 116 pages, no text layer",
+    "howTo": [
+      "Open the BRTA page above in a browser and find the PDF attachment.",
+      "Read the fare for each bus you care about. Enter it as an integer taka amount.",
+      "Set verifiedAt to the date printed on the list, not the date you typed it.",
+      "Start with the 30-40 buses that carry the most people, not all 156."
+    ]
+  },
+  "_entryFormat": {
+    "amount": "Integer taka. Whole numbers only, no 'Tk' prefix.",
+    "verifiedAt": "ISO date printed on the BRTA list, not the day you typed it in.",
+    "source": "'brta' for the official list, or 'community' for a rider correction.",
+    "reportCount": "community only: how many riders agreed on this number.",
+    "sourceUrl": "community only: a link to where riders said so, so anyone can check it."
+  },
+  "_noFakeEntries": "There is deliberately no example block here. A sample 'amount: 0' fare sitting in the fare file is a fabricated number one careless edit away from being served to someone, and this project does not hold invented fares anywhere. The shape is documented in _entryFormat instead, and a real entry is added by transcribing BRTA's list by hand or by accepting an agreed rider report at /fares/review.",
+  "_whyEmpty": "Empty on purpose. BRTA's fare list is a scanned PDF, so no fare has been read yet, and guessing a fare is worse than admitting we do not know it. The UI shows 'ভাড়া যাচাই করা হয়নি' for every bus until this file has real entries.",
+  "buses": {
+    "balaka": {
+      "amount": 40,
+      "verifiedAt": "2026-10-13",
+      "source": "community",
+      "reportCount": 2
+    }
+  }
+}

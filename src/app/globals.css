@@ -1,0 +1,98 @@
+@import "tailwindcss";
+
+/*
+  Dark mode is class based, not media-query based, so the user can flip it
+  regardless of their OS setting. In Tailwind v4 the default dark: variant
+  follows prefers-color-scheme, so we redefine it to follow a .dark class on
+  <html> instead. The ThemeProvider toggles that class.
+*/
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  /*
+    Bangla is the primary language here, so Noto Sans Bengali leads and
+    Inter handles the Latin text. Both are self-hosted by next/font, so
+    riders on slow connections never wait on Google.
+  */
+  --font-sans: var(--font-bengali), ui-sans-serif, system-ui, sans-serif;
+
+  /* A warm green reads as "go" / "available" without looking like a bank app. */
+  --color-brand-50: oklch(0.97 0.02 155);
+  --color-brand-100: oklch(0.94 0.04 155);
+  --color-brand-200: oklch(0.88 0.08 155);
+  --color-brand-300: oklch(0.80 0.13 156);
+  --color-brand-400: oklch(0.72 0.16 157);
+  --color-brand-500: oklch(0.64 0.16 158);
+  --color-brand-600: oklch(0.55 0.14 158);
+  --color-brand-700: oklch(0.46 0.11 159);
+  --color-brand-800: oklch(0.38 0.09 159);
+  --color-brand-900: oklch(0.31 0.07 160);
+  --color-brand-950: oklch(0.20 0.05 160);
+
+  /* Used for the fare figure, which is the thing riders scan for first. */
+  --color-fare-500: oklch(0.70 0.17 75);
+  --color-fare-600: oklch(0.62 0.16 65);
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    /* Stop iOS Safari from zooming the whole page when a field is focused. */
+    -webkit-text-size-adjust: 100%;
+  }
+
+  body {
+    background-color: var(--color-white);
+    color: var(--color-gray-900);
+    /* Bangla conjuncts have tall ascenders and deep descenders. Normal line
+       height clips them, so give every text block room. */
+    line-height: 1.65;
+  }
+
+  .dark body {
+    background-color: var(--color-gray-950);
+    color: var(--color-gray-100);
+  }
+
+  /* Only show focus rings for keyboard users, but never remove them. */
+  :focus-visible {
+    outline: 2px solid var(--color-brand-500);
+    outline-offset: 2px;
+  }
+}
+
+@layer components {
+  /*
+    A card that lifts slightly on hover. The transition property is declared
+    here so components do not each have to remember it.
+  */
+  .card-lift {
+    transition:
+      transform 200ms cubic-bezier(0.22, 1, 0.36, 1),
+      box-shadow 200ms cubic-bezier(0.22, 1, 0.36, 1),
+      border-color 200ms ease;
+  }
+  @media (hover: hover) {
+    .card-lift:hover {
+      transform: translateY(-2px);
+    }
+  }
+
+  /* Respect a user's request for less motion. Everything below is decorative. */
+  @media (prefers-reduced-motion: reduce) {
+    .card-lift,
+    .card-lift:hover {
+      transition: none;
+      transform: none;
+    }
+
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+      scroll-behavior: auto !important;
+    }
+  }
+}

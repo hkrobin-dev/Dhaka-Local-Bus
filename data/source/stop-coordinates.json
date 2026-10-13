@@ -1,0 +1,2134 @@
+{
+  "fetchedAt": "2026-10-01T15:06:44.216Z",
+  "source": {
+    "provider": "OpenStreetMap Nominatim",
+    "url": "https://nominatim.openstreetmap.org",
+    "note": "Geocoded stop NAMES, not surveyed bus stop positions. A match means Nominatim found a place of that name inside greater Dhaka. It does not mean the bus stops at that exact point, and it is not survey grade. Treat it as roughly where, not where exactly."
+  },
+  "bounds": {
+    "minLat": 23.45,
+    "maxLat": 23.95,
+    "minLon": 90.2,
+    "maxLon": 90.6
+  },
+  "matched": [
+    {
+      "id": "paltan",
+      "queried": "Paltan",
+      "osm": "পল্টন, ঢাকা, ঢাকা মহানগর"
+    },
+    {
+      "id": "shahbag",
+      "queried": "Shahbag",
+      "osm": "শাহবাগ, ঢাকা, ঢাকা মহানগর"
+    },
+    {
+      "id": "gpo",
+      "queried": "GPO",
+      "osm": "পল্টন, ঢাকা, ঢাকা মহানগর"
+    },
+    {
+      "id": "azimpur",
+      "queried": "Azampur",
+      "osm": "আজমপুর, ঢাকা, ঢাকা মহানগর"
+    },
+    {
+      "id": "farmgate",
+      "queried": "Farmgate",
+      "osm": "তেজগাঁও, ঢাকা, ঢাকা মহানগর"
+    },
+    {
+      "id": "kuril-bishwa-road",
+      "queried": "Kuril Bishwa Road",
+      "osm": "কুড়িল, ঢাকা, ঢাকা মহানগর"
+    },
+    {
+      "id": "gulistan",
+      "queried": "Gulistan",
+      "osm": "গুলিস্তান, ঢাকা, ঢাকা মহানগর"
+    },
+    {
+      "id": "technical",
+      "queried": "Technical",
+      "osm": "গাবতলী, ঢাকা, ঢাকা মহানগর"
+    },
+    {
+      "id": "press-club",
+      "queried": "Press Club",
+      "osm": "পল্টন, ঢাকা, ঢাকা মহানগর"
+    },
+    {
+      "id": "mirpur-10",
+      "queried": "Mirpur 10",
+      "osm": "মিরপুর, ঢাকা, ঢাকা মহানগর"
+    },
+    {
+      "id": "bangla-motor",
+      "queried": "Bangla Motor",
+      "osm": "কাওরান বাজার, ঢাকা, ঢাকা মহানগর"
+    },
+    {
+      "id": "shyamoli",
+      "queried": "Shyamoli",
+      "osm": "শ্যামলী, ঢাকা মহানগর"
+    },
+    {
+      "id": "kawran-bazar",
+      "queried": "Kawran Bazar",
+      "osm": "কাওরান বাজার, ঢাকা, ঢাকা মহানগর"
+    },
+    {
+      "id": "airport",
+      "queried": "Airport",
+      "osm": "আজমপুর, ঢাকা, ঢাকা মহানগর"
+    },
+    {
+      "id": "asad-gate",
+      "queried": "Asad Gate",
+      "osm": "লালমাটিয়া, ঢাকা মহানগর"
+    },
+    {
+      "id": "mirpur-1",
+      "queried": "Mirpur 1",
+      "osm": "শাহ আলী বাগ, ঢাকা, ঢাকা মহানগর"
+    },
+    {
+      "id": "shishu-mela",
+      "queried": "Shishu Mela",
+      "osm": "শ্যামলী, ঢাকা, ঢাকা মহানগর"
+    },
+    {
+      "id": "khilkhet",
+      "queried": "Khilkhet",
+      "osm": "খিলক্ষেত, ঢাকা, ঢাকা মহানগর"
+    },
+    {
+      "id": "kallyanpur",
+      "queried": "Kallyanpur",
+      "osm": "কল্যাণপুর, ঢাকা, ঢাকা মহানগর"
+    },
+    {
+      "id": "motijheel",
+      "queried": "Motijheel",
+      "osm": "মতিঝিল, ঢাকা, ঢাকা মহানগর"
+    },
+    {
+      "id": "rajlakshmi",
+      "queried": "Rajlakshmi",
+      "osm": "উত্তরা, ঢাকা, ঢাকা মহানগর"
+    },
+    {
+      "id": "house-building",
+      "queried": "House Building",
+      "osm": "উত্তরা, ঢাকা, ঢাকা মহানগর"
+    },
+    {
+      "id": "jashimuddin-uttara",
+      "queried": "Jashimuddin (Uttara)",
+      "osm": "উত্তরা, ঢাকা, ঢাকা মহানগর"
+    },
+    {
+      "id": "city-college",
+      "queried": "City College",
+      "osm": "জিগাতলা, ঢাকা, ঢাকা মহানগর"
+    },
+    {
+      "id": "khamar-bari",
+      "queried": "Khamar Bari",
+      "osm": "রাজাবাজার, ঢাকা, ঢাকা মহানগর"
+    },
+    {
+      "id": "mohakhali",
+      "queried": "Mohakhali",
+      "osm": "মহাখালী, ঢাকা, ঢাকা মহানগর"
+    },
+    {
+      "id": "jatrabari",
+      "queried": "Jatrabari",
+      "osm": "যাত্রাবাড়ী, ঢাকা, ঢাকা মহানগর"
+    },
+    {
+      "id": "notun-bazar",
+      "queried": "Notun Bazar",
+      "osm": "বারিধারা, ঢাকা, ঢাকা মহানগর"
+    },
+    {
+      "id": "agargaon",
+      "queried": "Agargaon",
+      "osm": "শেওড়াপাড়া, ঢাকা, ঢাকা মহানগর"
+    },
+    {
+      "id": "mirpur-2",
+      "queried": "Mirpur 2",
+      "osm": "Mirpur 2, ঢাকা, ঢাকা মহানগর"
+    },
+    {
+      "id": "mes",
+      "queried": "MES",
+      "osm": "কুর্মিটোলা, ঢাকা, ঢাকা মহানগর"
+    },
+    {
+      "id": "rampura-bridge",
+      "queried": "Rampura Bridge",
+      "osm": "বাড্ডা, ঢাকা, ঢাকা মহানগর"
+    },
+    {
+      "id": "sayedabad",
+      "queried": "Sayedabad",
+      "osm": "দয়াগঞ্জ, ঢাকা, ঢাকা মহানগর"
+    },
+    {
+      "id": "science-lab",
+      "queried": "Science Lab",
+      "osm": "কলাবাগান, ঢাকা, ঢাকা মহানগর"
+    },
+    {
+      "id": "shewra",
+      "queried": "Shewra",
+      "osm": "জোয়ার সাহারা, ঢাকা, ঢাকা মহানগর"
+    },
+    {
+      "id": "mirpur-11",
+      "queried": "Mirpur 11",
+      "osm": "মিরপুর, ঢাকা, ঢাকা মহানগর"
+    },
+    {
+      "id": "bashtola",
+      "queried": "Bashtola",
+      "osm": "গুলশান, ঢাকা, ঢাকা মহানগর"
+    },
+    {
+      "id": "kalabagan",
+      "queried": "Kalabagan",
+      "osm": "কলাবাগান, ঢাকা, ঢাকা মহানগর"
+    },
+    {
+      "id": "mouchak",
+      "queried": "Mouchak",
+      "osm": "সানারপাড়, নারায়ণগঞ্জ, নারায়ণগঞ্জ সদর উপজেলা"
+    },
+    {
+      "id": "amin-bazar",
+      "queried": "Amin Bazar",
+      "osm": "বিশিল, ঢাকা, ঢাকা মহানগর"
+    },
+    {
+      "id": "banani",
+      "queried": "Banani",
+      "osm": "বনানী, ঢাকা, ঢাকা মহানগর"
+    },
+    {
+      "id": "hemayetpur",
+      "queried": "Hemayetpur",
+      "osm": "হেমায়েতপুর, সাভার উপজেলা"
+    },
+    {
+      "id": "jahangir-gate",
+      "queried": "Jahangir Gate",
+      "osm": "নাখালপাড়া, ঢাকা, ঢাকা মহানগর"
+    },
+    {
+      "id": "merul",
+      "queried": "Merul",
+      "osm": "গুলশান, ঢাকা, ঢাকা মহানগর"
+    },
+    {
+      "id": "jamuna-future-park",
+      "queried": "Jamuna Future Park",
+      "osm": "জোয়ার সাহারা, ঢাকা, ঢাকা মহানগর"
+    },
+    {
+      "id": "nadda",
+      "queried": "Nadda",
+      "osm": "গুলশান, ঢাকা, ঢাকা মহানগর"
+    },
+    {
+      "id": "shewrapara",
+      "queried": "Shewrapara",
+      "osm": "শেওড়াপাড়া, ঢাকা, ঢাকা মহানগর"
+    },
+    {
+      "id": "sony-cinema-hall",
+      "queried": "Sony Cinema Hall",
+      "osm": "শাহ আলী বাগ, ঢাকা, ঢাকা মহানগর"
+    },
+    {
+      "id": "badda",
+      "queried": "Badda",
+      "osm": "ঢাকা, ঢাকা মহানগর"
+    },
+    {
+      "id": "dhanmondi-27",
+      "queried": "Dhanmondi 27",
+      "osm": "লালমাটিয়া, ঢাকা মহানগর"
+    },
+    {
+      "id": "golap-shah-mazar",
+      "queried": "Golap Shah Mazar",
+      "osm": "গুলিস্তান, ঢাকা, ঢাকা মহানগর"
+    },
+    {
+      "id": "savar",
+      "queried": "Savar",
+      "osm": "সাভার উপজেলা"
+    },
+    {
+      "id": "shahjadpur",
+      "queried": "Shahjadpur",
+      "osm": "শাহজাদপুর, ঢাকা, ঢাকা মহানগর"
+    },
+    {
+      "id": "kakali",
+      "queried": "Kakali",
+      "osm": "মিরপুর, ঢাকা, ঢাকা মহানগর"
+    },
+    {
+      "id": "kakrail",
+      "queried": "Kakrail",
+      "osm": "সেগুনবাগিচা, ঢাকা, ঢাকা মহানগর"
+    },
+    {
+      "id": "kazipara",
+      "queried": "Kazipara",
+      "osm": "শেওড়াপাড়া, ঢাকা, ঢাকা মহানগর"
+    },
+    {
+      "id": "bijoy-sarani",
+      "queried": "Bijoy Sarani",
+      "osm": "তেজগাঁও, ঢাকা, ঢাকা মহানগর"
+    },
+    {
+      "id": "mohammadpur",
+      "queried": "Mohammadpur",
+      "osm": "লালমাটিয়া, ঢাকা মহানগর"
+    },
+    {
+      "id": "shonir-akhra",
+      "queried": "Shonir Akhra",
+      "osm": "শেখদি, ঢাকা, ঢাকা মহানগর"
+    },
+    {
+      "id": "kalshi",
+      "queried": "Kalshi",
+      "osm": "মিরপুর, ঢাকা, ঢাকা মহানগর"
+    },
+    {
+      "id": "rampura-bazar",
+      "queried": "Rampura Bazar",
+      "osm": "নয়াটোলা, ঢাকা, ঢাকা মহানগর"
+    },
+    {
+      "id": "rayer-bazar",
+      "queried": "Rayerbag",
+      "osm": "রায়েরবাগ, ঢাকা, ঢাকা মহানগর"
+    },
+    {
+      "id": "uttar-badda",
+      "queried": "Uttar Badda",
+      "osm": "গুলশান, ঢাকা, ঢাকা মহানগর"
+    },
+    {
+      "id": "matuail",
+      "queried": "Matuail",
+      "osm": "মাতুয়াইল, ঢাকা, ঢাকা মহানগর"
+    },
+    {
+      "id": "nilkhet",
+      "queried": "Nilkhet",
+      "osm": "আজিমপুর, ঢাকা, ঢাকা মহানগর"
+    },
+    {
+      "id": "shantinagar",
+      "queried": "Shantinagar",
+      "osm": "রাজারবাগ, ঢাকা, ঢাকা মহানগর"
+    },
+    {
+      "id": "bata-signal",
+      "queried": "Bata Signal",
+      "osm": "শাহবাগ, ঢাকা, ঢাকা মহানগর"
+    },
+    {
+      "id": "gulshan-1",
+      "queried": "Gulshan 1",
+      "osm": "গুলশান, ঢাকা, ঢাকা মহানগর"
+    },
+    {
+      "id": "malibagh-railgate",
+      "queried": "Malibagh Railgate",
+      "osm": "নয়াটোলা, ঢাকা, ঢাকা মহানগর"
+    },
+    {
+      "id": "taltola",
+      "queried": "Taltola",
+      "osm": "আগারগাঁও, ঢাকা, ঢাকা মহানগর"
+    },
+    {
+      "id": "mogbazar",
+      "queried": "Mogbazar",
+      "osm": "ঢাকা, ঢাকা মহানগর"
+    },
+    {
+      "id": "pallabi",
+      "queried": "Pallabi",
+      "osm": "মিরপুর, ঢাকা, ঢাকা মহানগর"
+    },
+    {
+      "id": "jigatola",
+      "queried": "Jigatola",
+      "osm": "জিগাতলা, ঢাকা, ঢাকা মহানগর"
+    },
+    {
+      "id": "naya-bazar",
+      "queried": "Naya Bazar",
+      "osm": "আরমানিটোলা, ঢাকা, ঢাকা মহানগর"
+    },
+    {
+      "id": "shankar",
+      "queried": "Shankar",
+      "osm": "ধানমন্ডি, ঢাকা, ঢাকা মহানগর"
+    },
+    {
+      "id": "baipayl",
+      "queried": "Baipayl",
+      "osm": "বাইপাইল, সাভার উপজেলা"
+    },
+    {
+      "id": "dhanmondi-15",
+      "queried": "Dhanmondi 15",
+      "osm": "পিলখানা, ঢাকা, ঢাকা মহানগর"
+    },
+    {
+      "id": "mirpur-12",
+      "queried": "Mirpur 12",
+      "osm": "ঢাকা, ঢাকা মহানগর"
+    },
+    {
+      "id": "mirpur-14",
+      "queried": "Mirpur 14",
+      "osm": "মিরপুর, ঢাকা, ঢাকা মহানগর"
+    },
+    {
+      "id": "staff-road",
+      "queried": "Staff Road",
+      "osm": "ঢাকা সেনানিবাস, ঢাকা, ঢাকা মহানগর"
+    },
+    {
+      "id": "banasree",
+      "queried": "Banasree",
+      "osm": "বনশ্রী, ঢাকা, ঢাকা মহানগর"
+    },
+    {
+      "id": "darussalam",
+      "queried": "Darussalam",
+      "osm": "লালমাটিয়া, ঢাকা মহানগর"
+    },
+    {
+      "id": "sainik-club",
+      "queried": "Sainik Club",
+      "osm": "গুলশান, ঢাকা, ঢাকা মহানগর"
+    },
+    {
+      "id": "star-kabab",
+      "queried": "Star Kabab",
+      "osm": "কাফরুল, ঢাকা, ঢাকা মহানগর"
+    },
+    {
+      "id": "badda-link-road",
+      "queried": "Badda Link Road",
+      "osm": "গুলশান, ঢাকা, ঢাকা মহানগর"
+    },
+    {
+      "id": "board-bazar",
+      "queried": "Board Bazar",
+      "osm": "বোর্ড বাজার, গাজীপুর, গাজীপুর সদর উপজেলা"
+    },
+    {
+      "id": "mill-gate",
+      "queried": "Mill Gate",
+      "osm": "চেরাগ আলী, গাজীপুর সদর উপজেলা"
+    },
+    {
+      "id": "nabisco",
+      "queried": "Nabisco",
+      "osm": "নাখালপাড়া, ঢাকা, ঢাকা মহানগর"
+    },
+    {
+      "id": "sadarghat",
+      "queried": "Sadarghat",
+      "osm": "বাংলাবাজার, ঢাকা, ঢাকা মহানগর"
+    },
+    {
+      "id": "bashabo",
+      "queried": "Bashabo",
+      "osm": "বাসাবো, ঢাকা, ঢাকা মহানগর"
+    },
+    {
+      "id": "chittagong-road",
+      "queried": "Chittagong Road",
+      "osm": "সিদ্ধিরগঞ্জ, নারায়ণগঞ্জ, নারায়ণগঞ্জ সদর উপজেলা"
+    },
+    {
+      "id": "ray-saheb-bazar",
+      "queried": "Ray Saheb Bazar",
+      "osm": "নবাবপুর, ঢাকা, ঢাকা মহানগর"
+    },
+    {
+      "id": "station-road",
+      "queried": "Station Road",
+      "osm": "চেরাগ আলী, গাজীপুর সদর উপজেলা"
+    },
+    {
+      "id": "mugdapara",
+      "queried": "Mugdapara",
+      "osm": "মুগদা, ঢাকা, ঢাকা মহানগর"
+    },
+    {
+      "id": "nobinagar",
+      "queried": "Nobinagar",
+      "osm": "সাভার ক্যান্টনমেন্ট, সাভার উপজেলা"
+    },
+    {
+      "id": "wireless",
+      "queried": "Wireless",
+      "osm": "মগবাজার, ঢাকা, ঢাকা মহানগর"
+    },
+    {
+      "id": "bakshi-bazar",
+      "queried": "Bakshi Bazar",
+      "osm": "বকশীবাজার, ঢাকা, ঢাকা মহানগর"
+    },
+    {
+      "id": "chankhar-pul",
+      "queried": "Chankhar Pul",
+      "osm": "বংশাল, ঢাকা, ঢাকা মহানগর"
+    },
+    {
+      "id": "kamalapur",
+      "queried": "Kamalapur",
+      "osm": "কমলাপুর, ঢাকা, ঢাকা মহানগর"
+    },
+    {
+      "id": "kamarpara",
+      "queried": "Kamarpara",
+      "osm": "ভাটুলিয়া, ঢাকা, ঢাকা মহানগর"
+    },
+    {
+      "id": "arambagh",
+      "queried": "Arambagh",
+      "osm": "মতিঝিল, ঢাকা, ঢাকা মহানগর"
+    },
+    {
+      "id": "demra-staff-quarter",
+      "queried": "Demra Staff Quarter",
+      "osm": "কাজলা, ঢাকা, ঢাকা মহানগর"
+    },
+    {
+      "id": "khilgaon",
+      "queried": "Khilgaon",
+      "osm": "খিলগাঁও, ঢাকা, ঢাকা মহানগর"
+    },
+    {
+      "id": "babubazar",
+      "queried": "Babubazar",
+      "osm": "বাবু বাজার, ঢাকা, ঢাকা মহানগর"
+    },
+    {
+      "id": "gulshan-2",
+      "queried": "Gulshan 2",
+      "osm": "গুলশান, ঢাকা, ঢাকা মহানগর"
+    },
+    {
+      "id": "katabon",
+      "queried": "Katabon",
+      "osm": "শাহবাগ, ঢাকা, ঢাকা মহানগর"
+    },
+    {
+      "id": "keraniganj",
+      "queried": "Keraniganj",
+      "osm": "কেরাণীগঞ্জ উপজেলা"
+    },
+    {
+      "id": "postagola",
+      "queried": "Postagola",
+      "osm": "পোস্তগোলা, ঢাকা, ঢাকা মহানগর"
+    },
+    {
+      "id": "satrasta",
+      "queried": "Satrasta",
+      "osm": "কাওরান বাজার, ঢাকা, ঢাকা মহানগর"
+    },
+    {
+      "id": "zirabo",
+      "queried": "Zirabo",
+      "osm": "জিরাবো, সাভার উপজেলা"
+    },
+    {
+      "id": "ashulia",
+      "queried": "Ashulia",
+      "osm": "আশুলিয়া, সাভার উপজেলা"
+    },
+    {
+      "id": "bangla-college",
+      "queried": "Bangla College",
+      "osm": "টোলারবাগ, ঢাকা, ঢাকা মহানগর"
+    },
+    {
+      "id": "cantonment",
+      "queried": "Garrison (Cantonment)",
+      "osm": "ঢাকা সেনানিবাস, ঢাকা, ঢাকা মহানগর"
+    },
+    {
+      "id": "dholairpar",
+      "queried": "Dholairpar",
+      "osm": "ধোলাইরপাড়, ঢাকা, ঢাকা মহানগর"
+    },
+    {
+      "id": "fantasy-kingdom",
+      "queried": "Fantasy Kingdom",
+      "osm": "নরসিংহপুর, সাভার উপজেলা"
+    },
+    {
+      "id": "japan-garden-city",
+      "queried": "Japan Garden City",
+      "osm": "শ্যামলী, ঢাকা মহানগর"
+    },
+    {
+      "id": "manik-nagar",
+      "queried": "Manik Nagar",
+      "osm": "মানিকনগর, ঢাকা, ঢাকা মহানগর"
+    },
+    {
+      "id": "shukrabad",
+      "queried": "Shukrabad",
+      "osm": "শুক্রাবাদ, ঢাকা, ঢাকা মহানগর"
+    },
+    {
+      "id": "adabor",
+      "queried": "Adabor",
+      "osm": "আদাবর, ঢাকা, ঢাকা মহানগর"
+    },
+    {
+      "id": "birulia",
+      "queried": "Birulia",
+      "osm": "সাভার উপজেলা"
+    },
+    {
+      "id": "chashara",
+      "queried": "Chashara",
+      "osm": "নারায়ণগঞ্জ, নারায়ণগঞ্জ সদর উপজেলা"
+    },
+    {
+      "id": "dayaganj",
+      "queried": "Dayaganj",
+      "osm": "দয়াগঞ্জ, ঢাকা, ঢাকা মহানগর"
+    },
+    {
+      "id": "dhakeshwari",
+      "queried": "Dhakeshwari",
+      "osm": "বকশীবাজার, ঢাকা, ঢাকা মহানগর"
+    },
+    {
+      "id": "dhour",
+      "queried": "Dhour",
+      "osm": "ধউর, ঢাকা, ঢাকা মহানগর"
+    },
+    {
+      "id": "ghatar-char",
+      "queried": "Ghatar Char",
+      "osm": "চর ওয়াশপুর, কেরাণীগঞ্জ উপজেলা"
+    },
+    {
+      "id": "jalkuri",
+      "queried": "Jalkuri",
+      "osm": "ভুঁইগড়, নারায়ণগঞ্জ, নারায়ণগঞ্জ সদর উপজেলা"
+    },
+    {
+      "id": "jurain",
+      "queried": "Jurain",
+      "osm": "জুরাইন, ঢাকা, ঢাকা মহানগর"
+    },
+    {
+      "id": "kachukhet",
+      "queried": "Kachukhet",
+      "osm": "ইব্রাহিমপুর, ঢাকা, ঢাকা মহানগর"
+    },
+    {
+      "id": "khilgaon-flyover",
+      "queried": "Khilgaon Flyover",
+      "osm": "শাহজাহানপুর, ঢাকা, ঢাকা মহানগর"
+    },
+    {
+      "id": "madanpur",
+      "queried": "Madanpur",
+      "osm": "বন্দর উপজেলা"
+    },
+    {
+      "id": "maowa",
+      "queried": "Maowa",
+      "osm": "লৌহজং উপজেলা"
+    },
+    {
+      "id": "ring-road",
+      "queried": "Ring Road",
+      "osm": "শ্যামলী, ঢাকা মহানগর"
+    },
+    {
+      "id": "rupnagar",
+      "queried": "Rupnagar",
+      "osm": "পল্লবী, ঢাকা, ঢাকা মহানগর"
+    },
+    {
+      "id": "saudi-colony",
+      "queried": "Saudi Colony",
+      "osm": "নাখালপাড়া, ঢাকা, ঢাকা মহানগর"
+    },
+    {
+      "id": "shibu-market",
+      "queried": "Shibu Market",
+      "osm": "ফতুল্লা, নারায়ণগঞ্জ, নারায়ণগঞ্জ সদর উপজেলা"
+    },
+    {
+      "id": "balughat",
+      "queried": "Balughat",
+      "osm": "মানিকদি, ঢাকা, ঢাকা মহানগর"
+    },
+    {
+      "id": "duaripara",
+      "queried": "Duaripara",
+      "osm": "পল্লবী, ঢাকা, ঢাকা মহানগর"
+    },
+    {
+      "id": "eden-college",
+      "queried": "Eden College",
+      "osm": "আজিমপুর, ঢাকা, ঢাকা মহানগর"
+    },
+    {
+      "id": "jamgora",
+      "queried": "Jamgora",
+      "osm": "শ্রীনগর উপজেলা"
+    },
+    {
+      "id": "kadamtali",
+      "queried": "Kadamtali",
+      "osm": "জিঞ্জিরা, কেরাণীগঞ্জ উপজেলা"
+    },
+    {
+      "id": "mazar-road",
+      "queried": "Mazar Road",
+      "osm": "বিশিল, ঢাকা, ঢাকা মহানগর"
+    },
+    {
+      "id": "mirpur-13",
+      "queried": "Mirpur 13",
+      "osm": "সেনপাড়া পর্বতা, ঢাকা, ঢাকা মহানগর"
+    },
+    {
+      "id": "mirpur-dohs",
+      "queried": "Mirpur DOHS",
+      "osm": "মিরপুর সেনানিবাস, ঢাকা, ঢাকা মহানগর"
+    },
+    {
+      "id": "old-airport",
+      "queried": "Old Airport",
+      "osm": "নাখালপাড়া, ঢাকা, ঢাকা মহানগর"
+    },
+    {
+      "id": "panthapath",
+      "queried": "Panthapath",
+      "osm": "পান্থপথ, ঢাকা, ঢাকা মহানগর"
+    },
+    {
+      "id": "tajmahal-road",
+      "queried": "Tajmahal Road",
+      "osm": "লালমাটিয়া, ঢাকা মহানগর"
+    },
+    {
+      "id": "tolarbag",
+      "queried": "Tolarbag",
+      "osm": "টোলারবাগ, ঢাকা, ঢাকা মহানগর"
+    },
+    {
+      "id": "vulta",
+      "queried": "Vulta",
+      "osm": "রূপগঞ্জ উপজেলা"
+    },
+    {
+      "id": "300-feet",
+      "queried": "300 Feet",
+      "osm": "পীরেরবাগ, ঢাকা, ঢাকা মহানগর"
+    },
+    {
+      "id": "abdulla",
+      "queried": "Abdulla",
+      "osm": "আরমানিটোলা, ঢাকা, ঢাকা মহানগর"
+    },
+    {
+      "id": "adabor-shyamoli",
+      "queried": "Adabor Shyamoli",
+      "osm": "শ্যামলী, ঢাকা মহানগর"
+    },
+    {
+      "id": "adamjee-college",
+      "queried": "Adamjee College",
+      "osm": "ঢাকা সেনানিবাস, ঢাকা, ঢাকা মহানগর"
+    },
+    {
+      "id": "ashulia-bazar",
+      "queried": "Ashulia Bazar",
+      "osm": "জিরাবো, সাভার উপজেলা"
+    },
+    {
+      "id": "baitul-mukarram",
+      "queried": "Baitul Mukarram",
+      "osm": "পল্টন, ঢাকা, ঢাকা মহানগর"
+    },
+    {
+      "id": "bangladesh-bank",
+      "queried": "Bangladesh Bank",
+      "osm": "মতিঝিল, ঢাকা, ঢাকা মহানগর"
+    },
+    {
+      "id": "bot-tola",
+      "queried": "Bot tola",
+      "osm": "বিশমাইল, সাভার উপজেলা"
+    },
+    {
+      "id": "cmh",
+      "queried": "CMH",
+      "osm": "ঢাকা সেনানিবাস, ঢাকা, ঢাকা মহানগর"
+    },
+    {
+      "id": "dhupkhola",
+      "queried": "Dhupkhola",
+      "osm": "গেন্ডারিয়া, ঢাকা, ঢাকা মহানগর"
+    },
+    {
+      "id": "fakirapul",
+      "queried": "Fakirapul",
+      "osm": "ফকিরাপুল, ঢাকা, ঢাকা মহানগর"
+    },
+    {
+      "id": "gandaria",
+      "queried": "Gandaria",
+      "osm": "গেন্ডারিয়া, ঢাকা, ঢাকা মহানগর"
+    },
+    {
+      "id": "gulshan-link-road",
+      "queried": "Gulshan Link Road",
+      "osm": "নিকেতন, ঢাকা, ঢাকা মহানগর"
+    },
+    {
+      "id": "hasnabad",
+      "queried": "Hasnabad",
+      "osm": "কেরাণীগঞ্জ উপজেলা"
+    },
+    {
+      "id": "hazaribag",
+      "queried": "Hazaribag",
+      "osm": "ঢাকা, ঢাকা মহানগর"
+    },
+    {
+      "id": "idb",
+      "queried": "IDB",
+      "osm": "আগারগাঁও, ঢাকা, ঢাকা মহানগর"
+    },
+    {
+      "id": "kamlapur",
+      "queried": "Kamlapur",
+      "osm": "সায়দাবাদ, ঢাকা, ঢাকা মহানগর"
+    },
+    {
+      "id": "kamrangirchar",
+      "queried": "Kamrangirchar",
+      "osm": "বাবু বাজার, ঢাকা, ঢাকা মহানগর"
+    },
+    {
+      "id": "karwan-bazar",
+      "queried": "Karwan Bazar",
+      "osm": "কাওরান বাজার, ঢাকা, ঢাকা মহানগর"
+    },
+    {
+      "id": "kuril-flyover",
+      "queried": "Kuril Flyover",
+      "osm": "কুড়িল, ঢাকা, ঢাকা মহানগর"
+    },
+    {
+      "id": "malibagh",
+      "queried": "Malibagh",
+      "osm": "মালিবাগ, ঢাকা, ঢাকা মহানগর"
+    },
+    {
+      "id": "manik-mia-avenue",
+      "queried": "Manik Mia Avenue",
+      "osm": "সোবহানবাগ, ঢাকা, ঢাকা মহানগর"
+    },
+    {
+      "id": "metro-hall",
+      "queried": "Metro Hall",
+      "osm": "নারায়ণগঞ্জ, নারায়ণগঞ্জ সদর উপজেলা"
+    },
+    {
+      "id": "mitford-ghat",
+      "queried": "Mitford Ghat",
+      "osm": "বাবু বাজার, ঢাকা, ঢাকা মহানগর"
+    },
+    {
+      "id": "narshinghapur",
+      "queried": "Narshinghapur",
+      "osm": "নরসিংহপুর, সাভার উপজেলা"
+    },
+    {
+      "id": "nawabganj",
+      "queried": "Nawabganj",
+      "osm": "নবাবগঞ্জ, ঢাকা, ঢাকা মহানগর"
+    },
+    {
+      "id": "palashi",
+      "queried": "Palashi",
+      "osm": "আজিমপুর, ঢাকা, ঢাকা মহানগর"
+    },
+    {
+      "id": "palli-bidyut",
+      "queried": "Palli Bidyut",
+      "osm": "সাভার ক্যান্টনমেন্ট, সাভার উপজেলা"
+    },
+    {
+      "id": "police-plaza",
+      "queried": "Police Plaza",
+      "osm": "গুলশান, ঢাকা, ঢাকা মহানগর"
+    },
+    {
+      "id": "salimullah-road",
+      "queried": "Salimullah Road",
+      "osm": "লালমাটিয়া, ঢাকা মহানগর"
+    },
+    {
+      "id": "sanarpar",
+      "queried": "Sanarpar",
+      "osm": "সানারপাড়, নারায়ণগঞ্জ, নারায়ণগঞ্জ সদর উপজেলা"
+    },
+    {
+      "id": "savar-cantonment",
+      "queried": "Savar Cantonment",
+      "osm": "সাভার ক্যান্টনমেন্ট, সাভার উপজেলা"
+    },
+    {
+      "id": "shiyal-bari",
+      "queried": "Shiyal Bari",
+      "osm": "বড়বাগ, ঢাকা, ঢাকা মহানগর"
+    },
+    {
+      "id": "shonbari-sreenagar",
+      "queried": "Shonbari Sreenagar",
+      "osm": "শ্রীনগর উপজেলা"
+    },
+    {
+      "id": "showari-ghat",
+      "queried": "Showari Ghat",
+      "osm": "বাবু বাজার, ঢাকা, ঢাকা মহানগর"
+    },
+    {
+      "id": "signal",
+      "queried": "Signal",
+      "osm": "শাহবাগ, ঢাকা, ঢাকা মহানগর"
+    },
+    {
+      "id": "sikder-medical-college",
+      "queried": "Sikder Medical College",
+      "osm": "নবাবগঞ্জ, ঢাকা, ঢাকা মহানগর"
+    },
+    {
+      "id": "tarabo",
+      "queried": "Tarabo",
+      "osm": "রূপগঞ্জ উপজেলা"
+    },
+    {
+      "id": "tikatuli",
+      "queried": "Tikatuli",
+      "osm": "টিকাটুলি, ঢাকা, ঢাকা মহানগর"
+    },
+    {
+      "id": "victoria-park",
+      "queried": "Victoria Park",
+      "osm": "বাংলাবাজার, ঢাকা, ঢাকা মহানগর"
+    }
+  ],
+  "rejected": [
+    {
+      "id": "matsya-bhaban",
+      "name": "Matsya Bhaban",
+      "reason": "no-match",
+      "detail": "no result at all"
+    },
+    {
+      "id": "malibagh-moor",
+      "name": "Malibagh Moor",
+      "reason": "no-match",
+      "detail": "no result at all"
+    },
+    {
+      "id": "ecb-square",
+      "name": "ECB Square",
+      "reason": "no-match",
+      "detail": "no result at all"
+    },
+    {
+      "id": "chiriyakhana",
+      "name": "Chiriyakhana",
+      "reason": "no-match",
+      "detail": "no result at all"
+    },
+    {
+      "id": "gazipur-chourasta",
+      "name": "Gazipur Chourasta",
+      "reason": "no-match",
+      "detail": "no result at all"
+    },
+    {
+      "id": "nandan-park",
+      "name": "Nandan Park",
+      "reason": "outside-dhaka",
+      "detail": "Nandan Park, নবীনগর - চন্দ্রা মহাসড়ক, জিরানী, কালিয়াকৈর উপজেলা, গাজীপুর জেলা, ঢাকা বিভাগ"
+    },
+    {
+      "id": "zirani-bazar",
+      "name": "Zirani Bazar",
+      "reason": "outside-dhaka",
+      "detail": "Zirani Bazar, নবীনগর - চন্দ্রা মহাসড়ক, ভবানীপুর, সাভার উপজেলা, ঢাকা জেলা, ঢাকা বিভাগ, 134"
+    },
+    {
+      "id": "janapath-moor",
+      "name": "Janapath Moor",
+      "reason": "no-match",
+      "detail": "no result at all"
+    },
+    {
+      "id": "dainik-bangla-moor",
+      "name": "Dainik Bangla Moor",
+      "reason": "no-match",
+      "detail": "no result at all"
+    },
+    {
+      "id": "madhya-badda",
+      "name": "Madhya Badda",
+      "reason": "no-match",
+      "detail": "no result at all"
+    },
+    {
+      "id": "gazipur-bypass",
+      "name": "Gazipur Bypass",
+      "reason": "outside-dhaka",
+      "detail": "Cixing Bangladesh Ltd, ঢাকা মহানগর বাইপাস, চান্দনা, কড্ডা, গাজীপুর সদর উপজেলা, গাজীপুর জেল"
+    },
+    {
+      "id": "zia-uddyan",
+      "name": "Zia Uddyan",
+      "reason": "no-match",
+      "detail": "no result at all"
+    },
+    {
+      "id": "konabari",
+      "name": "Konabari",
+      "reason": "outside-dhaka",
+      "detail": "Konabari, Dhaka - Tangail Highway, কোনাবাড়ী, গাজীপুর সদর উপজেলা, গাজীপুর জেলা, ঢাকা বিভাগ"
+    },
+    {
+      "id": "golapbag-chourasta",
+      "name": "Golapbag Chourasta",
+      "reason": "no-match",
+      "detail": "no result at all"
+    },
+    {
+      "id": "ittefaq-moor",
+      "name": "Ittefaq Moor",
+      "reason": "no-match",
+      "detail": "no result at all"
+    },
+    {
+      "id": "kazla",
+      "name": "Kazla",
+      "reason": "outside-dhaka",
+      "detail": "University Kazla Gate Mosque, Dhaka - Rajshahi Highway, কাজলা মোড়, তালাইমারি, রাজশাহী, রাজ"
+    },
+    {
+      "id": "kuril-chourasta",
+      "name": "Kuril Chourasta",
+      "reason": "no-match",
+      "detail": "no result at all"
+    },
+    {
+      "id": "dhamrai",
+      "name": "Dhamra",
+      "reason": "no-match",
+      "detail": "no result at all"
+    },
+    {
+      "id": "manikganj",
+      "name": "Manikganj",
+      "reason": "outside-dhaka",
+      "detail": "মানিকগঞ্জ জেলা, ঢাকা বিভাগ, বাংলাদেশ"
+    },
+    {
+      "id": "rajendrapur",
+      "name": "Rajendrapur",
+      "reason": "outside-dhaka",
+      "detail": "রাজেন্দ্রপুর, শ্রীপুর উপজেলা (গাজীপুর), গাজীপুর জেলা, ঢাকা বিভাগ, 1742, বাংলাদেশ"
+    },
+    {
+      "id": "rupnagar-abashik",
+      "name": "Rupnagar Abashik",
+      "reason": "no-match",
+      "detail": "no result at all"
+    },
+    {
+      "id": "shia-mosque",
+      "name": "Shia Mosque",
+      "reason": "no-match",
+      "detail": "no result at all"
+    },
+    {
+      "id": "arambagh-kingdom",
+      "name": "Arambagh Kingdom",
+      "reason": "no-match",
+      "detail": "no result at all"
+    },
+    {
+      "id": "arambagh-notre-dame-college",
+      "name": "Arambagh Notre Dame College",
+      "reason": "no-match",
+      "detail": "no result at all"
+    },
+    {
+      "id": "baromi",
+      "name": "Baromi",
+      "reason": "no-match",
+      "detail": "no result at all"
+    },
+    {
+      "id": "dia-bari",
+      "name": "Dia Bari",
+      "reason": "no-match",
+      "detail": "no result at all"
+    },
+    {
+      "id": "jakir-hossen-road",
+      "name": "Jakir Hossen Road",
+      "reason": "no-match",
+      "detail": "no result at all"
+    },
+    {
+      "id": "jarun",
+      "name": "Jarun",
+      "reason": "no-match",
+      "detail": "no result at all"
+    },
+    {
+      "id": "joydebpur",
+      "name": "Joydebpur",
+      "reason": "outside-dhaka",
+      "detail": "জয়দেবপুর, গাজীপুর, গাজীপুর সদর উপজেলা, গাজীপুর জেলা, ঢাকা বিভাগ, 1701, বাংলাদেশ"
+    },
+    {
+      "id": "kajipara",
+      "name": "Kajipara",
+      "reason": "no-match",
+      "detail": "no result at all"
+    },
+    {
+      "id": "kalampur",
+      "name": "Kalampur",
+      "reason": "outside-dhaka",
+      "detail": "Kalampur, ঢাকা - আরিচা মহাসড়ক, Joypura, ধামরাই উপজেলা, ঢাকা জেলা, ঢাকা বিভাগ, 1350, বাংলাদ"
+    },
+    {
+      "id": "kanchan-bridge",
+      "name": "Kanchan Bridge",
+      "reason": "no-match",
+      "detail": "no result at all"
+    },
+    {
+      "id": "kashimpur",
+      "name": "Kashimpur",
+      "reason": "outside-dhaka",
+      "detail": "কাশিমপুর, গাজীপুর সদর উপজেলা, গাজীপুর জেলা, ঢাকা বিভাগ, 1346, বাংলাদেশ"
+    },
+    {
+      "id": "khilgaon-khidma-hospital",
+      "name": "Khilgaon Khidma Hospital",
+      "reason": "no-match",
+      "detail": "no result at all"
+    },
+    {
+      "id": "kuchimura",
+      "name": "Kuchimura",
+      "reason": "no-match",
+      "detail": "no result at all"
+    },
+    {
+      "id": "meghna-ghat",
+      "name": "Meghna Ghat",
+      "reason": "outside-dhaka",
+      "detail": "Meghna Ghat, সোনারগাঁও, সোনারগাঁও উপজেলা, নারায়নগঞ্জ জেলা, ঢাকা বিভাগ, 1440, বাংলাদেশ"
+    },
+    {
+      "id": "motsho-bhaban",
+      "name": "Motsho Bhaban",
+      "reason": "no-match",
+      "detail": "no result at all"
+    },
+    {
+      "id": "nila-market",
+      "name": "Nila Market",
+      "reason": "no-match",
+      "detail": "no result at all"
+    },
+    {
+      "id": "paturia",
+      "name": "Paturia",
+      "reason": "outside-dhaka",
+      "detail": "পাটুরিয়া, শিবালয় উপজেলা, মানিকগঞ্জ জেলা, ঢাকা বিভাগ, বাংলাদেশ"
+    },
+    {
+      "id": "proshika-moor",
+      "name": "Proshika Moor",
+      "reason": "outside-dhaka",
+      "detail": "Proshika Moor, Murog Mahal Rd, Hospital Quarter, Mridha Bari, দীপের শহর, হোসেনপুর উপজেলা, "
+    },
+    {
+      "id": "sreepur",
+      "name": "Sreepur",
+      "reason": "outside-dhaka",
+      "detail": "শ্রীপুর, শ্রীপুর উপজেলা (গাজীপুর), গাজীপুর জেলা, ঢাকা বিভাগ, বাংলাদেশ"
+    },
+    {
+      "id": "sura-bari",
+      "name": "Sura Bari",
+      "reason": "outside-dhaka",
+      "detail": "Sura Bari, Narshinghapur Kashimpur Road, গাজীপুর, গাজীপুর সদর উপজেলা, গাজীপুর জেলা, ঢাকা ব"
+    },
+    {
+      "id": "adamjee-school",
+      "name": "adamjee-school",
+      "reason": "geometry-contradiction",
+      "detail": "Geocoded pin disagreed with 15 of 15 measured road distances to other stops. Dropped rather than shown in the wrong place."
+    },
+    {
+      "id": "tt-para",
+      "name": "tt-para",
+      "reason": "geometry-contradiction",
+      "detail": "Geocoded pin disagreed with 20 of 22 measured road distances to other stops. Dropped rather than shown in the wrong place."
+    },
+    {
+      "id": "new-market",
+      "name": "new-market",
+      "reason": "geometry-contradiction",
+      "detail": "Geocoded pin disagreed with 86 of 98 measured road distances to other stops. Dropped rather than shown in the wrong place."
+    },
+    {
+      "id": "abdullahpur",
+      "name": "abdullahpur",
+      "reason": "geometry-contradiction",
+      "detail": "Geocoded pin disagreed with 87 of 109 measured road distances to other stops. Dropped rather than shown in the wrong place."
+    },
+    {
+      "id": "south-banasree",
+      "name": "south-banasree",
+      "reason": "geometry-contradiction",
+      "detail": "Geocoded pin disagreed with 12 of 15 measured road distances to other stops. Dropped rather than shown in the wrong place."
+    },
+    {
+      "id": "hazipara",
+      "name": "hazipara",
+      "reason": "geometry-contradiction",
+      "detail": "Geocoded pin disagreed with 58 of 73 measured road distances to other stops. Dropped rather than shown in the wrong place."
+    },
+    {
+      "id": "gabtoli",
+      "name": "gabtoli",
+      "reason": "geometry-contradiction",
+      "detail": "Geocoded pin disagreed with 86 of 108 measured road distances to other stops. Dropped rather than shown in the wrong place."
+    },
+    {
+      "id": "fulbaria",
+      "name": "fulbaria",
+      "reason": "geometry-contradiction",
+      "detail": "Geocoded pin disagreed with 43 of 55 measured road distances to other stops. Dropped rather than shown in the wrong place."
+    },
+    {
+      "id": "high-court",
+      "name": "high-court",
+      "reason": "geometry-contradiction",
+      "detail": "Geocoded pin disagreed with 67 of 98 measured road distances to other stops. Dropped rather than shown in the wrong place."
+    },
+    {
+      "id": "chairman-bari",
+      "name": "chairman-bari",
+      "reason": "geometry-contradiction",
+      "detail": "Geocoded pin disagreed with 48 of 71 measured road distances to other stops. Dropped rather than shown in the wrong place."
+    },
+    {
+      "id": "workshop",
+      "name": "workshop",
+      "reason": "geometry-contradiction",
+      "detail": "Geocoded pin disagreed with 12 of 18 measured road distances to other stops. Dropped rather than shown in the wrong place."
+    },
+    {
+      "id": "diabari",
+      "name": "diabari",
+      "reason": "geometry-contradiction",
+      "detail": "Geocoded pin disagreed with 21 of 34 measured road distances to other stops. Dropped rather than shown in the wrong place."
+    },
+    {
+      "id": "rajarbag",
+      "name": "rajarbag",
+      "reason": "geometry-contradiction",
+      "detail": "Geocoded pin disagreed with 20 of 34 measured road distances to other stops. Dropped rather than shown in the wrong place."
+    },
+    {
+      "id": "college-gate",
+      "name": "college-gate",
+      "reason": "geometry-contradiction",
+      "detail": "Geocoded pin disagreed with 54 of 98 measured road distances to other stops. Dropped rather than shown in the wrong place."
+    },
+    {
+      "id": "beribadh",
+      "name": "beribadh",
+      "reason": "geometry-contradiction",
+      "detail": "Geocoded pin disagreed with 15 of 27 measured road distances to other stops. Dropped rather than shown in the wrong place."
+    },
+    {
+      "id": "shimultola",
+      "name": "shimultola",
+      "reason": "geometry-contradiction",
+      "detail": "Geocoded pin disagreed with 10 of 20 measured road distances to other stops. Dropped rather than shown in the wrong place."
+    },
+    {
+      "id": "shib-bari",
+      "name": "shib-bari",
+      "reason": "geometry-contradiction",
+      "detail": "Geocoded pin disagreed with 11 of 26 measured road distances to other stops. Dropped rather than shown in the wrong place."
+    },
+    {
+      "id": "ansar-camp",
+      "name": "ansar-camp",
+      "reason": "geometry-contradiction",
+      "detail": "Geocoded pin disagreed with 39 of 95 measured road distances to other stops. Dropped rather than shown in the wrong place."
+    },
+    {
+      "id": "dhanmondi-32",
+      "name": "dhanmondi-32",
+      "reason": "geometry-contradiction",
+      "detail": "Geocoded pin disagreed with 36 of 86 measured road distances to other stops. Dropped rather than shown in the wrong place."
+    },
+    {
+      "id": "bashundhara",
+      "name": "bashundhara",
+      "reason": "geometry-contradiction",
+      "detail": "Geocoded pin disagreed with 36 of 90 measured road distances to other stops. Dropped rather than shown in the wrong place."
+    },
+    {
+      "id": "vashantek",
+      "name": "vashantek",
+      "reason": "geometry-contradiction",
+      "detail": "Geocoded pin disagreed with 3 of 8 measured road distances to other stops. Dropped rather than shown in the wrong place."
+    },
+    {
+      "id": "bosila",
+      "name": "bosila",
+      "reason": "geometry-contradiction",
+      "detail": "Geocoded pin disagreed with 20 of 54 measured road distances to other stops. Dropped rather than shown in the wrong place."
+    },
+    {
+      "id": "sign-board",
+      "name": "sign-board",
+      "reason": "geometry-contradiction",
+      "detail": "Geocoded pin disagreed with 37 of 99 measured road distances to other stops. Dropped rather than shown in the wrong place."
+    },
+    {
+      "id": "tongi",
+      "name": "tongi",
+      "reason": "geometry-contradiction",
+      "detail": "Geocoded pin disagreed with 28 of 76 measured road distances to other stops. Dropped rather than shown in the wrong place."
+    },
+    {
+      "id": "chandra",
+      "name": "chandra",
+      "reason": "geometry-contradiction",
+      "detail": "Geocoded pin disagreed with 22 of 62 measured road distances to other stops. Dropped rather than shown in the wrong place."
+    },
+    {
+      "id": "nimtola",
+      "name": "nimtola",
+      "reason": "geometry-contradiction",
+      "detail": "Geocoded pin disagreed with 6 of 17 measured road distances to other stops. Dropped rather than shown in the wrong place."
+    },
+    {
+      "id": "purobi",
+      "name": "purobi",
+      "reason": "geometry-contradiction",
+      "detail": "Geocoded pin disagreed with 23 of 83 measured road distances to other stops. Dropped rather than shown in the wrong place."
+    },
+    {
+      "id": "kanchpur",
+      "name": "kanchpur",
+      "reason": "geometry-contradiction",
+      "detail": "Geocoded pin disagreed with 7 of 27 measured road distances to other stops. Dropped rather than shown in the wrong place."
+    }
+  ],
+  "coordinates": {
+    "paltan": [
+      23.731756,
+      90.411419
+    ],
+    "shahbag": [
+      23.737336,
+      90.396172
+    ],
+    "gpo": [
+      23.72893,
+      90.411401
+    ],
+    "azimpur": [
+      23.86655,
+      90.41001
+    ],
+    "farmgate": [
+      23.759039,
+      90.387111
+    ],
+    "kuril-bishwa-road": [
+      23.821208,
+      90.419537
+    ],
+    "gulistan": [
+      23.724904,
+      90.412079
+    ],
+    "technical": [
+      23.780428,
+      90.352835
+    ],
+    "press-club": [
+      23.729508,
+      90.4067
+    ],
+    "mirpur-10": [
+      23.808365,
+      90.368261
+    ],
+    "bangla-motor": [
+      23.74584,
+      90.394939
+    ],
+    "shyamoli": [
+      23.774395,
+      90.365428
+    ],
+    "kawran-bazar": [
+      23.751431,
+      90.39486
+    ],
+    "airport": [
+      23.851999,
+      90.404459
+    ],
+    "asad-gate": [
+      23.76013,
+      90.372725
+    ],
+    "mirpur-1": [
+      23.801924,
+      90.352346
+    ],
+    "shishu-mela": [
+      23.773007,
+      90.36788
+    ],
+    "khilkhet": [
+      23.835132,
+      90.435112
+    ],
+    "kallyanpur": [
+      23.780685,
+      90.361332
+    ],
+    "motijheel": [
+      23.72726,
+      90.421196
+    ],
+    "rajlakshmi": [
+      23.864328,
+      90.399944
+    ],
+    "house-building": [
+      23.874827,
+      90.40069
+    ],
+    "jashimuddin-uttara": [
+      23.86122,
+      90.397293
+    ],
+    "city-college": [
+      23.739768,
+      90.382567
+    ],
+    "khamar-bari": [
+      23.759127,
+      90.383882
+    ],
+    "mohakhali": [
+      23.779906,
+      90.408316
+    ],
+    "jatrabari": [
+      23.709398,
+      90.433806
+    ],
+    "notun-bazar": [
+      23.798294,
+      90.423971
+    ],
+    "agargaon": [
+      23.778427,
+      90.38005
+    ],
+    "mirpur-2": [
+      23.80634,
+      90.357026
+    ],
+    "mes": [
+      23.814536,
+      90.404068
+    ],
+    "rampura-bridge": [
+      23.76803,
+      90.42334
+    ],
+    "sayedabad": [
+      23.711228,
+      90.428681
+    ],
+    "science-lab": [
+      23.739693,
+      90.383606
+    ],
+    "shewra": [
+      23.817994,
+      90.413606
+    ],
+    "mirpur-11": [
+      23.819096,
+      90.365281
+    ],
+    "bashtola": [
+      23.794405,
+      90.422513
+    ],
+    "kalabagan": [
+      23.747948,
+      90.381387
+    ],
+    "mouchak": [
+      23.694678,
+      90.495158
+    ],
+    "amin-bazar": [
+      23.79819,
+      90.337935
+    ],
+    "banani": [
+      23.790321,
+      90.407696
+    ],
+    "hemayetpur": [
+      23.793526,
+      90.270874
+    ],
+    "jahangir-gate": [
+      23.775774,
+      90.390038
+    ],
+    "merul": [
+      23.771858,
+      90.425081
+    ],
+    "jamuna-future-park": [
+      23.813498,
+      90.424089
+    ],
+    "nadda": [
+      23.810373,
+      90.419524
+    ],
+    "shewrapara": [
+      23.790963,
+      90.375509
+    ],
+    "sony-cinema-hall": [
+      23.800487,
+      90.355393
+    ],
+    "badda": [
+      23.776543,
+      90.446301
+    ],
+    "dhanmondi-27": [
+      23.754089,
+      90.371351
+    ],
+    "golap-shah-mazar": [
+      23.724985,
+      90.410844
+    ],
+    "savar": [
+      23.8477,
+      90.2587
+    ],
+    "shahjadpur": [
+      23.791914,
+      90.42428
+    ],
+    "kakali": [
+      23.820295,
+      90.368293
+    ],
+    "kakrail": [
+      23.73854,
+      90.407147
+    ],
+    "kazipara": [
+      23.799241,
+      90.371988
+    ],
+    "bijoy-sarani": [
+      23.768352,
+      90.391857
+    ],
+    "mohammadpur": [
+      23.759389,
+      90.366325
+    ],
+    "shonir-akhra": [
+      23.703661,
+      90.45088
+    ],
+    "kalshi": [
+      23.820293,
+      90.371041
+    ],
+    "rampura-bazar": [
+      23.760243,
+      90.418621
+    ],
+    "rayer-bazar": [
+      23.698048,
+      90.457102
+    ],
+    "uttar-badda": [
+      23.785704,
+      90.425611
+    ],
+    "matuail": [
+      23.705268,
+      90.460633
+    ],
+    "nilkhet": [
+      23.732936,
+      90.386085
+    ],
+    "shantinagar": [
+      23.741566,
+      90.412061
+    ],
+    "bata-signal": [
+      23.739079,
+      90.388677
+    ],
+    "gulshan-1": [
+      23.780553,
+      90.4169
+    ],
+    "malibagh-railgate": [
+      23.749697,
+      90.412635
+    ],
+    "taltola": [
+      23.777933,
+      90.374011
+    ],
+    "mogbazar": [
+      23.754587,
+      90.409689
+    ],
+    "pallabi": [
+      23.824637,
+      90.367595
+    ],
+    "jigatola": [
+      23.740319,
+      90.372048
+    ],
+    "naya-bazar": [
+      23.713723,
+      90.404543
+    ],
+    "shankar": [
+      23.749615,
+      90.366098
+    ],
+    "baipayl": [
+      23.938001,
+      90.270064
+    ],
+    "dhanmondi-15": [
+      23.738297,
+      90.381244
+    ],
+    "mirpur-12": [
+      23.825104,
+      90.370672
+    ],
+    "mirpur-14": [
+      23.798842,
+      90.384712
+    ],
+    "staff-road": [
+      23.812752,
+      90.401702
+    ],
+    "banasree": [
+      23.761712,
+      90.431277
+    ],
+    "darussalam": [
+      23.757099,
+      90.370446
+    ],
+    "sainik-club": [
+      23.79123,
+      90.399527
+    ],
+    "star-kabab": [
+      23.74751,
+      90.370201
+    ],
+    "badda-link-road": [
+      23.770382,
+      90.422875
+    ],
+    "board-bazar": [
+      23.945207,
+      90.382517
+    ],
+    "mill-gate": [
+      23.896014,
+      90.399377
+    ],
+    "nabisco": [
+      23.769259,
+      90.401223
+    ],
+    "sadarghat": [
+      23.705892,
+      90.409286
+    ],
+    "bashabo": [
+      23.740547,
+      90.433348
+    ],
+    "chittagong-road": [
+      23.69726,
+      90.509467
+    ],
+    "ray-saheb-bazar": [
+      23.713866,
+      90.411512
+    ],
+    "station-road": [
+      23.891987,
+      90.40228
+    ],
+    "mugdapara": [
+      23.729122,
+      90.433565
+    ],
+    "nobinagar": [
+      23.915482,
+      90.259228
+    ],
+    "wireless": [
+      23.750488,
+      90.408696
+    ],
+    "bakshi-bazar": [
+      23.722559,
+      90.395559
+    ],
+    "chankhar-pul": [
+      23.723833,
+      90.400344
+    ],
+    "kamalapur": [
+      23.731872,
+      90.425344
+    ],
+    "kamarpara": [
+      23.889186,
+      90.388279
+    ],
+    "arambagh": [
+      23.730902,
+      90.421566
+    ],
+    "demra-staff-quarter": [
+      23.719729,
+      90.490529
+    ],
+    "khilgaon": [
+      23.750655,
+      90.423282
+    ],
+    "babubazar": [
+      23.71164,
+      90.403291
+    ],
+    "gulshan-2": [
+      23.794719,
+      90.413699
+    ],
+    "katabon": [
+      23.738742,
+      90.391
+    ],
+    "keraniganj": [
+      23.700501,
+      90.382644
+    ],
+    "postagola": [
+      23.688171,
+      90.42976
+    ],
+    "satrasta": [
+      23.757446,
+      90.392425
+    ],
+    "zirabo": [
+      23.913216,
+      90.321227
+    ],
+    "ashulia": [
+      23.89699,
+      90.328958
+    ],
+    "bangla-college": [
+      23.784952,
+      90.352762
+    ],
+    "cantonment": [
+      23.802413,
+      90.395533
+    ],
+    "dholairpar": [
+      23.702605,
+      90.43534
+    ],
+    "fantasy-kingdom": [
+      23.934274,
+      90.291488
+    ],
+    "japan-garden-city": [
+      23.764222,
+      90.358475
+    ],
+    "manik-nagar": [
+      23.722485,
+      90.428939
+    ],
+    "shukrabad": [
+      23.753706,
+      90.379781
+    ],
+    "adabor": [
+      23.772436,
+      90.35608
+    ],
+    "birulia": [
+      23.850165,
+      90.333934
+    ],
+    "chashara": [
+      23.623904,
+      90.498947
+    ],
+    "dayaganj": [
+      23.710442,
+      90.424639
+    ],
+    "dhakeshwari": [
+      23.72321,
+      90.389745
+    ],
+    "dhour": [
+      23.891188,
+      90.371868
+    ],
+    "ghatar-char": [
+      23.736237,
+      90.336007
+    ],
+    "jalkuri": [
+      23.662851,
+      90.48988
+    ],
+    "jurain": [
+      23.696246,
+      90.434313
+    ],
+    "kachukhet": [
+      23.793558,
+      90.390282
+    ],
+    "khilgaon-flyover": [
+      23.743799,
+      90.426607
+    ],
+    "madanpur": [
+      23.692251,
+      90.547031
+    ],
+    "maowa": [
+      23.474043,
+      90.25527
+    ],
+    "ring-road": [
+      23.77045,
+      90.359073
+    ],
+    "rupnagar": [
+      23.823258,
+      90.354313
+    ],
+    "saudi-colony": [
+      23.778344,
+      90.389365
+    ],
+    "shibu-market": [
+      23.644113,
+      90.493485
+    ],
+    "balughat": [
+      23.828937,
+      90.390412
+    ],
+    "duaripara": [
+      23.827266,
+      90.35654
+    ],
+    "eden-college": [
+      23.728795,
+      90.387105
+    ],
+    "jamgora": [
+      23.544224,
+      90.344015
+    ],
+    "kadamtali": [
+      23.702155,
+      90.397903
+    ],
+    "mazar-road": [
+      23.791884,
+      90.34857
+    ],
+    "mirpur-13": [
+      23.8064,
+      90.37765
+    ],
+    "mirpur-dohs": [
+      23.837188,
+      90.368983
+    ],
+    "old-airport": [
+      23.772189,
+      90.390127
+    ],
+    "panthapath": [
+      23.752873,
+      90.382751
+    ],
+    "tajmahal-road": [
+      23.763331,
+      90.362208
+    ],
+    "tolarbag": [
+      23.788434,
+      90.351657
+    ],
+    "vulta": [
+      23.784275,
+      90.564189
+    ],
+    "300-feet": [
+      23.788353,
+      90.366665
+    ],
+    "abdulla": [
+      23.718646,
+      90.400712
+    ],
+    "adabor-shyamoli": [
+      23.762938,
+      90.356768
+    ],
+    "adamjee-college": [
+      23.794469,
+      90.394123
+    ],
+    "ashulia-bazar": [
+      23.905239,
+      90.293008
+    ],
+    "baitul-mukarram": [
+      23.729472,
+      90.412617
+    ],
+    "bangladesh-bank": [
+      23.726327,
+      90.422799
+    ],
+    "bot-tola": [
+      23.879671,
+      90.265294
+    ],
+    "cmh": [
+      23.814334,
+      90.398087
+    ],
+    "dhupkhola": [
+      23.706308,
+      90.42193
+    ],
+    "fakirapul": [
+      23.73255,
+      90.416987
+    ],
+    "gandaria": [
+      23.70608,
+      90.426386
+    ],
+    "gulshan-link-road": [
+      23.771273,
+      90.403691
+    ],
+    "hasnabad": [
+      23.682636,
+      90.426613
+    ],
+    "hazaribag": [
+      23.733724,
+      90.35578
+    ],
+    "idb": [
+      23.778746,
+      90.379174
+    ],
+    "kamlapur": [
+      23.71327,
+      90.427892
+    ],
+    "kamrangirchar": [
+      23.714547,
+      90.381358
+    ],
+    "karwan-bazar": [
+      23.751266,
+      90.392776
+    ],
+    "kuril-flyover": [
+      23.822354,
+      90.420025
+    ],
+    "malibagh": [
+      23.747067,
+      90.413772
+    ],
+    "manik-mia-avenue": [
+      23.758363,
+      90.379281
+    ],
+    "metro-hall": [
+      23.624336,
+      90.50479
+    ],
+    "mitford-ghat": [
+      23.710034,
+      90.401615
+    ],
+    "narshinghapur": [
+      23.943305,
+      90.311344
+    ],
+    "nawabganj": [
+      23.722891,
+      90.376536
+    ],
+    "palashi": [
+      23.726231,
+      90.387249
+    ],
+    "palli-bidyut": [
+      23.924306,
+      90.263235
+    ],
+    "police-plaza": [
+      23.772305,
+      90.415735
+    ],
+    "salimullah-road": [
+      23.758824,
+      90.363501
+    ],
+    "sanarpar": [
+      23.696912,
+      90.49032
+    ],
+    "savar-cantonment": [
+      23.917256,
+      90.260387
+    ],
+    "shiyal-bari": [
+      23.808195,
+      90.358017
+    ],
+    "shonbari-sreenagar": [
+      23.544658,
+      90.301163
+    ],
+    "showari-ghat": [
+      23.710865,
+      90.394355
+    ],
+    "signal": [
+      23.739079,
+      90.388677
+    ],
+    "sikder-medical-college": [
+      23.741338,
+      90.360392
+    ],
+    "tarabo": [
+      23.721567,
+      90.503959
+    ],
+    "tikatuli": [
+      23.718976,
+      90.424011
+    ],
+    "victoria-park": [
+      23.709212,
+      90.41235
+    ]
+  },
+  "auditedAt": "2026-10-01T15:26:07.891Z",
+  "auditNote": "Survived two checks: the OpenStreetMap English name (audit-coordinates.mjs) and real measured road distances (check-coordinates.mjs). A pin was dropped if it claimed a road shorter than the straight line to another stop, because that geometry cannot exist."
+}

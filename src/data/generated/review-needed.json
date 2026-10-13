@@ -1,0 +1,1777 @@
+{
+  "generatedAt": "2026-10-01T15:30:33.125Z",
+  "source": {
+    "file": "data/source/dhaka-city-local-bus.json",
+    "origin": "https://github.com/imamhossain94/dhaka-city-local-bus-json-data",
+    "note": "Scraped from busroutebd.com, which is now offline. The upstream site is dead, so this file is the only surviving copy we have. It is kept in the repo deliberately: if it is lost the dataset is lost."
+  },
+  "counts": {
+    "buses": 156,
+    "stops": 258,
+    "rawStopSpellings": 301,
+    "spellingsMerged": 43,
+    "stopsWithBanglaName": 132,
+    "busesWithFare": 1,
+    "stopsWithDistance": 178,
+    "distancePairs": 5769,
+    "stopsWithCoordinate": 188,
+    "busesFullyPlottable": 8,
+    "busesWithCompleteDistance": 15,
+    "busesEstimable": 12,
+    "busesPremiumService": 40,
+    "journeysTotal": 36165,
+    "journeysMeasurable": 9145,
+    "journeysEstimable": 6635
+  },
+  "warnings": [
+    {
+      "kind": "merged-spellings",
+      "id": "technical",
+      "detail": "Collapsed 2 spellings onto \"Technical\".",
+      "spellings": [
+        "Technical (46)",
+        "Technical - (1)"
+      ]
+    },
+    {
+      "kind": "merged-spellings",
+      "id": "sony-cinema-hall",
+      "detail": "Collapsed 5 spellings onto \"Sony Cinema Hall\".",
+      "spellings": [
+        "Sony Cinema Hall (16)",
+        "Sony Cenema Hall (3)",
+        "Mirpur Sony Cinema Hall (1)",
+        "Sony CInema Hall (1)",
+        "Sony Cinema Hall Mirpur 1 (1)"
+      ]
+    },
+    {
+      "kind": "compound-stop",
+      "id": "mirpur-2",
+      "detail": "Source listed this as two places joined together. Pointed at the first. A human should check the real route.",
+      "spellings": [
+        "Mirpur 2 (27)",
+        "Mirpur 2 Mirpur 10 (1)"
+      ]
+    },
+    {
+      "kind": "merged-spellings",
+      "id": "mirpur-2",
+      "detail": "Collapsed 2 spellings onto \"Mirpur 2\".",
+      "spellings": [
+        "Mirpur 2 (27)",
+        "Mirpur 2 Mirpur 10 (1)"
+      ]
+    },
+    {
+      "kind": "merged-spellings",
+      "id": "purobi",
+      "detail": "Collapsed 2 spellings onto \"Purobi\".",
+      "spellings": [
+        "Purobi (27)",
+        "Purobi Pallabi (1)"
+      ]
+    },
+    {
+      "kind": "merged-spellings",
+      "id": "kalshi",
+      "detail": "Collapsed 2 spellings onto \"Kalshi\".",
+      "spellings": [
+        "Kalshi (17)",
+        "Kalshi Pallabi (1)"
+      ]
+    },
+    {
+      "kind": "merged-spellings",
+      "id": "kuril-bishwa-road",
+      "detail": "Collapsed 3 spellings onto \"Kuril Bishwa Road\".",
+      "spellings": [
+        "Kuril Bishwa Road (47)",
+        "Kuril  Bishwa Road (1)",
+        "Kuril Bissho Road (1)"
+      ]
+    },
+    {
+      "kind": "merged-spellings",
+      "id": "bashundhara",
+      "detail": "Collapsed 2 spellings onto \"Bashundhara\".",
+      "spellings": [
+        "Bashundhara (22)",
+        "Bashundhara (300 Feet Gate) (1)"
+      ]
+    },
+    {
+      "kind": "merged-spellings",
+      "id": "bashtola",
+      "detail": "Collapsed 2 spellings onto \"Bashtola\".",
+      "spellings": [
+        "Bashtola (24)",
+        "Bashtola - (1)"
+      ]
+    },
+    {
+      "kind": "merged-spellings",
+      "id": "paltan",
+      "detail": "Collapsed 2 spellings onto \"Paltan\".",
+      "spellings": [
+        "Paltan (67)",
+        "Press Club  Paltan (1)"
+      ]
+    },
+    {
+      "kind": "merged-spellings",
+      "id": "bangla-motor",
+      "detail": "Collapsed 2 spellings onto \"Bangla Motor\".",
+      "spellings": [
+        "Bangla Motor (40)",
+        "Bangla Motor Shahbag (1)"
+      ]
+    },
+    {
+      "kind": "merged-spellings",
+      "id": "farmgate",
+      "detail": "Collapsed 2 spellings onto \"Farmgate\".",
+      "spellings": [
+        "Farmgate (49)",
+        "Farmgate Bijoy Sarani (1)"
+      ]
+    },
+    {
+      "kind": "merged-spellings",
+      "id": "kakali",
+      "detail": "Collapsed 2 spellings onto \"Kakali\".",
+      "spellings": [
+        "Kakali (19)",
+        "kakali (1)"
+      ]
+    },
+    {
+      "kind": "merged-spellings",
+      "id": "airport",
+      "detail": "Collapsed 2 spellings onto \"Airport\".",
+      "spellings": [
+        "Airport (38)",
+        "Airport Jashimuddin (Uttara) (1)"
+      ]
+    },
+    {
+      "kind": "merged-spellings",
+      "id": "rajlakshmi",
+      "detail": "Collapsed 2 spellings onto \"Rajlakshmi\".",
+      "spellings": [
+        "Rajlakshmi (35)",
+        "Rajlakshmi House Building (1)"
+      ]
+    },
+    {
+      "kind": "merged-spellings",
+      "id": "azimpur",
+      "detail": "Collapsed 2 spellings onto \"Azampur\".",
+      "spellings": [
+        "Azampur (32)",
+        "Azimpur (19)"
+      ]
+    },
+    {
+      "kind": "merged-spellings",
+      "id": "ray-saheb-bazar",
+      "detail": "Collapsed 3 spellings onto \"Ray Saheb Bazar\".",
+      "spellings": [
+        "Ray Saheb Bazar (8)",
+        "- Ray Saheb Bazar (1)",
+        "Ray Shaheb Bazar (1)"
+      ]
+    },
+    {
+      "kind": "merged-spellings",
+      "id": "chandra",
+      "detail": "Collapsed 2 spellings onto \"Chandra\".",
+      "spellings": [
+        "Chandra (8)",
+        "Nobinagar Chandra (1)"
+      ]
+    },
+    {
+      "kind": "merged-spellings",
+      "id": "mogbazar",
+      "detail": "Collapsed 2 spellings onto \"Mogbazar\".",
+      "spellings": [
+        "Mogbazar (14)",
+        "Mogbazar Mohakhali (1)"
+      ]
+    },
+    {
+      "kind": "merged-spellings",
+      "id": "baipayl",
+      "detail": "Collapsed 2 spellings onto \"Baipayl\".",
+      "spellings": [
+        "Baipayl (12)",
+        "Nobinagar Baipayl (1)"
+      ]
+    },
+    {
+      "kind": "compound-stop",
+      "id": "khamar-bari",
+      "detail": "Source listed this as two places joined together. Pointed at the first. A human should check the real route.",
+      "spellings": [
+        "Khamar Bari (28)",
+        "Khamar Bari - (1)",
+        "Khamar Bari Farmgate (1)",
+        "Khamarbari (1)"
+      ]
+    },
+    {
+      "kind": "merged-spellings",
+      "id": "khamar-bari",
+      "detail": "Collapsed 4 spellings onto \"Khamar Bari\".",
+      "spellings": [
+        "Khamar Bari (28)",
+        "Khamar Bari - (1)",
+        "Khamar Bari Farmgate (1)",
+        "Khamarbari (1)"
+      ]
+    },
+    {
+      "kind": "merged-spellings",
+      "id": "beribadh",
+      "detail": "Collapsed 2 spellings onto \"Beribadh\".",
+      "spellings": [
+        "Beribadh (3)",
+        "Beribadh Tin Rastar Moor (1)"
+      ]
+    },
+    {
+      "kind": "merged-spellings",
+      "id": "shewrapara",
+      "detail": "Collapsed 2 spellings onto \"Shewrapara\".",
+      "spellings": [
+        "Shewrapara (21)",
+        "Kazipara Shewrapara (1)"
+      ]
+    },
+    {
+      "kind": "merged-spellings",
+      "id": "ring-road",
+      "detail": "Collapsed 2 spellings onto \"Ring Road\".",
+      "spellings": [
+        "Ring Road (2)",
+        "Ring road (1)"
+      ]
+    },
+    {
+      "kind": "merged-spellings",
+      "id": "shonir-akhra",
+      "detail": "Collapsed 2 spellings onto \"Shonir Akhra\".",
+      "spellings": [
+        "Shonir Akhra (18)",
+        "Shanir Akhra (1)"
+      ]
+    },
+    {
+      "kind": "merged-spellings",
+      "id": "jatrabari",
+      "detail": "Collapsed 2 spellings onto \"Jatrabari\".",
+      "spellings": [
+        "Jatrabari (29)",
+        "Jatrabari - (1)"
+      ]
+    },
+    {
+      "kind": "merged-spellings",
+      "id": "kalabagan",
+      "detail": "Collapsed 4 spellings onto \"Kalabagan\".",
+      "spellings": [
+        "Kalabagan (22)",
+        "Dhanmondi 32 Kalabagan (1)",
+        "Kalabagan City College (1)",
+        "Kolabagan (1)"
+      ]
+    },
+    {
+      "kind": "merged-spellings",
+      "id": "new-market",
+      "detail": "Collapsed 2 spellings onto \"New Market\".",
+      "spellings": [
+        "New Market (17)",
+        "New Market Nilkhet (1)"
+      ]
+    },
+    {
+      "kind": "merged-spellings",
+      "id": "satrasta",
+      "detail": "Collapsed 2 spellings onto \"Satrasta\".",
+      "spellings": [
+        "Satrasta (4)",
+        "Sat rasta (1)"
+      ]
+    },
+    {
+      "kind": "merged-spellings",
+      "id": "mohammadpur",
+      "detail": "Collapsed 2 spellings onto \"Mohammadpur\".",
+      "spellings": [
+        "Mohammadpur (17)",
+        "Mohammadpur Bus Stand (2)"
+      ]
+    },
+    {
+      "kind": "merged-spellings",
+      "id": "ittefaq-moor",
+      "detail": "Collapsed 2 spellings onto \"Ittefaq Moor\".",
+      "spellings": [
+        "Ittefaq Moor (2)",
+        "Ittefaq Moor Sayedabad (1)"
+      ]
+    },
+    {
+      "kind": "merged-spellings",
+      "id": "rayer-bazar",
+      "detail": "Collapsed 2 spellings onto \"Rayerbag\".",
+      "spellings": [
+        "Rayerbag (17)",
+        "Rayer Bazar (1)"
+      ]
+    },
+    {
+      "kind": "merged-spellings",
+      "id": "cantonment",
+      "detail": "Collapsed 2 spellings onto \"Garrison (Cantonment)\".",
+      "spellings": [
+        "Garrison (Cantonment) (3)",
+        "Cantonment (1)"
+      ]
+    },
+    {
+      "kind": "merged-spellings",
+      "id": "dhamrai",
+      "detail": "Collapsed 2 spellings onto \"Dhamra\".",
+      "spellings": [
+        "Dhamra (1)",
+        "Dhamrai (1)"
+      ]
+    },
+    {
+      "kind": "merged-spellings",
+      "id": "panthapath",
+      "detail": "Collapsed 2 spellings onto \"Panthapath\".",
+      "spellings": [
+        "Panthapath (1)",
+        "Panthopoth (1)"
+      ]
+    },
+    {
+      "kind": "suspect-merge",
+      "id": "gulistan",
+      "detail": "Almost certainly a misspelling of Gulshan. Appears in 48 buses. Needs a local to confirm which Gulshan it is before merging."
+    }
+  ],
+  "untranslatedStops": [
+    {
+      "id": "bashtola",
+      "nameEn": "Bashtola",
+      "busCount": 25
+    },
+    {
+      "id": "ansar-camp",
+      "nameEn": "Ansar Camp",
+      "busCount": 23
+    },
+    {
+      "id": "hemayetpur",
+      "nameEn": "Hemayetpur",
+      "busCount": 23
+    },
+    {
+      "id": "jahangir-gate",
+      "nameEn": "Jahangir Gate",
+      "busCount": 23
+    },
+    {
+      "id": "kakali",
+      "nameEn": "Kakali",
+      "busCount": 20
+    },
+    {
+      "id": "kakrail",
+      "nameEn": "Kakrail",
+      "busCount": 20
+    },
+    {
+      "id": "bijoy-sarani",
+      "nameEn": "Bijoy Sarani",
+      "busCount": 19
+    },
+    {
+      "id": "mohammadpur",
+      "nameEn": "Mohammadpur",
+      "busCount": 19
+    },
+    {
+      "id": "sign-board",
+      "nameEn": "Sign Board",
+      "busCount": 19
+    },
+    {
+      "id": "rampura-bazar",
+      "nameEn": "Rampura Bazar",
+      "busCount": 18
+    },
+    {
+      "id": "ecb-square",
+      "nameEn": "ECB Square",
+      "busCount": 16
+    },
+    {
+      "id": "chairman-bari",
+      "nameEn": "Chairman Bari",
+      "busCount": 15
+    },
+    {
+      "id": "mogbazar",
+      "nameEn": "Mogbazar",
+      "busCount": 15
+    },
+    {
+      "id": "staff-road",
+      "nameEn": "Staff Road",
+      "busCount": 13
+    },
+    {
+      "id": "sainik-club",
+      "nameEn": "Sainik Club",
+      "busCount": 12
+    },
+    {
+      "id": "mill-gate",
+      "nameEn": "Mill Gate",
+      "busCount": 11
+    },
+    {
+      "id": "nabisco",
+      "nameEn": "Nabisco",
+      "busCount": 11
+    },
+    {
+      "id": "nandan-park",
+      "nameEn": "Nandan Park",
+      "busCount": 11
+    },
+    {
+      "id": "zirani-bazar",
+      "nameEn": "Zirani Bazar",
+      "busCount": 11
+    },
+    {
+      "id": "station-road",
+      "nameEn": "Station Road",
+      "busCount": 10
+    },
+    {
+      "id": "janapath-moor",
+      "nameEn": "Janapath Moor",
+      "busCount": 9
+    },
+    {
+      "id": "mugdapara",
+      "nameEn": "Mugdapara",
+      "busCount": 9
+    },
+    {
+      "id": "nobinagar",
+      "nameEn": "Nobinagar",
+      "busCount": 9
+    },
+    {
+      "id": "wireless",
+      "nameEn": "Wireless",
+      "busCount": 9
+    },
+    {
+      "id": "bakshi-bazar",
+      "nameEn": "Bakshi Bazar",
+      "busCount": 8
+    },
+    {
+      "id": "chankhar-pul",
+      "nameEn": "Chankhar Pul",
+      "busCount": 8
+    },
+    {
+      "id": "dainik-bangla-moor",
+      "nameEn": "Dainik Bangla Moor",
+      "busCount": 8
+    },
+    {
+      "id": "kamalapur",
+      "nameEn": "Kamalapur",
+      "busCount": 8
+    },
+    {
+      "id": "kamarpara",
+      "nameEn": "Kamarpara",
+      "busCount": 8
+    },
+    {
+      "id": "katabon",
+      "nameEn": "Katabon",
+      "busCount": 6
+    },
+    {
+      "id": "zia-uddyan",
+      "nameEn": "Zia Uddyan",
+      "busCount": 5
+    },
+    {
+      "id": "zirabo",
+      "nameEn": "Zirabo",
+      "busCount": 5
+    },
+    {
+      "id": "beribadh",
+      "nameEn": "Beribadh",
+      "busCount": 4
+    },
+    {
+      "id": "dholairpar",
+      "nameEn": "Dholairpar",
+      "busCount": 4
+    },
+    {
+      "id": "fantasy-kingdom",
+      "nameEn": "Fantasy Kingdom",
+      "busCount": 4
+    },
+    {
+      "id": "fulbaria",
+      "nameEn": "Fulbaria",
+      "busCount": 4
+    },
+    {
+      "id": "japan-garden-city",
+      "nameEn": "Japan Garden City",
+      "busCount": 4
+    },
+    {
+      "id": "konabari",
+      "nameEn": "Konabari",
+      "busCount": 4
+    },
+    {
+      "id": "manik-nagar",
+      "nameEn": "Manik Nagar",
+      "busCount": 4
+    },
+    {
+      "id": "vashantek",
+      "nameEn": "Vashantek",
+      "busCount": 4
+    },
+    {
+      "id": "workshop",
+      "nameEn": "Workshop",
+      "busCount": 4
+    },
+    {
+      "id": "chashara",
+      "nameEn": "Chashara",
+      "busCount": 3
+    },
+    {
+      "id": "dhour",
+      "nameEn": "Dhour",
+      "busCount": 3
+    },
+    {
+      "id": "ghatar-char",
+      "nameEn": "Ghatar Char",
+      "busCount": 3
+    },
+    {
+      "id": "golapbag-chourasta",
+      "nameEn": "Golapbag Chourasta",
+      "busCount": 3
+    },
+    {
+      "id": "jalkuri",
+      "nameEn": "Jalkuri",
+      "busCount": 3
+    },
+    {
+      "id": "jurain",
+      "nameEn": "Jurain",
+      "busCount": 3
+    },
+    {
+      "id": "kazla",
+      "nameEn": "Kazla",
+      "busCount": 3
+    },
+    {
+      "id": "khilgaon-flyover",
+      "nameEn": "Khilgaon Flyover",
+      "busCount": 3
+    },
+    {
+      "id": "kuril-chourasta",
+      "nameEn": "Kuril Chourasta",
+      "busCount": 3
+    },
+    {
+      "id": "madanpur",
+      "nameEn": "Madanpur",
+      "busCount": 3
+    },
+    {
+      "id": "maowa",
+      "nameEn": "Maowa",
+      "busCount": 3
+    },
+    {
+      "id": "ring-road",
+      "nameEn": "Ring Road",
+      "busCount": 3
+    },
+    {
+      "id": "rupnagar",
+      "nameEn": "Rupnagar",
+      "busCount": 3
+    },
+    {
+      "id": "saudi-colony",
+      "nameEn": "Saudi Colony",
+      "busCount": 3
+    },
+    {
+      "id": "shibu-market",
+      "nameEn": "Shibu Market",
+      "busCount": 3
+    },
+    {
+      "id": "adamjee-school",
+      "nameEn": "Adamjee School",
+      "busCount": 2
+    },
+    {
+      "id": "balughat",
+      "nameEn": "Balughat",
+      "busCount": 2
+    },
+    {
+      "id": "diabari",
+      "nameEn": "Diabari",
+      "busCount": 2
+    },
+    {
+      "id": "duaripara",
+      "nameEn": "Duaripara",
+      "busCount": 2
+    },
+    {
+      "id": "eden-college",
+      "nameEn": "Eden College",
+      "busCount": 2
+    },
+    {
+      "id": "jamgora",
+      "nameEn": "Jamgora",
+      "busCount": 2
+    },
+    {
+      "id": "kadamtali",
+      "nameEn": "Kadamtali",
+      "busCount": 2
+    },
+    {
+      "id": "kanchpur",
+      "nameEn": "Kanchpur",
+      "busCount": 2
+    },
+    {
+      "id": "panthapath",
+      "nameEn": "Panthapath",
+      "busCount": 2
+    },
+    {
+      "id": "rajendrapur",
+      "nameEn": "Rajendrapur",
+      "busCount": 2
+    },
+    {
+      "id": "rupnagar-abashik",
+      "nameEn": "Rupnagar Abashik",
+      "busCount": 2
+    },
+    {
+      "id": "shia-mosque",
+      "nameEn": "Shia Mosque",
+      "busCount": 2
+    },
+    {
+      "id": "tajmahal-road",
+      "nameEn": "Tajmahal Road",
+      "busCount": 2
+    },
+    {
+      "id": "tolarbag",
+      "nameEn": "Tolarbag",
+      "busCount": 2
+    },
+    {
+      "id": "vulta",
+      "nameEn": "Vulta",
+      "busCount": 2
+    },
+    {
+      "id": "300-feet",
+      "nameEn": "300 Feet",
+      "busCount": 1
+    },
+    {
+      "id": "abdulla",
+      "nameEn": "Abdulla",
+      "busCount": 1
+    },
+    {
+      "id": "adabor-shyamoli",
+      "nameEn": "Adabor Shyamoli",
+      "busCount": 1
+    },
+    {
+      "id": "adamjee-college",
+      "nameEn": "Adamjee College",
+      "busCount": 1
+    },
+    {
+      "id": "arambagh-kingdom",
+      "nameEn": "Arambagh Kingdom",
+      "busCount": 1
+    },
+    {
+      "id": "arambagh-notre-dame-college",
+      "nameEn": "Arambagh Notre Dame College",
+      "busCount": 1
+    },
+    {
+      "id": "ashulia-bazar",
+      "nameEn": "Ashulia Bazar",
+      "busCount": 1
+    },
+    {
+      "id": "bangladesh-bank",
+      "nameEn": "Bangladesh Bank",
+      "busCount": 1
+    },
+    {
+      "id": "baromi",
+      "nameEn": "Baromi",
+      "busCount": 1
+    },
+    {
+      "id": "bot-tola",
+      "nameEn": "Bot tola",
+      "busCount": 1
+    },
+    {
+      "id": "cmh",
+      "nameEn": "CMH",
+      "busCount": 1
+    },
+    {
+      "id": "dhupkhola",
+      "nameEn": "Dhupkhola",
+      "busCount": 1
+    },
+    {
+      "id": "dia-bari",
+      "nameEn": "Dia Bari",
+      "busCount": 1
+    },
+    {
+      "id": "hasnabad",
+      "nameEn": "Hasnabad",
+      "busCount": 1
+    },
+    {
+      "id": "hazaribag",
+      "nameEn": "Hazaribag",
+      "busCount": 1
+    },
+    {
+      "id": "idb",
+      "nameEn": "IDB",
+      "busCount": 1
+    },
+    {
+      "id": "jakir-hossen-road",
+      "nameEn": "Jakir Hossen Road",
+      "busCount": 1
+    },
+    {
+      "id": "jarun",
+      "nameEn": "Jarun",
+      "busCount": 1
+    },
+    {
+      "id": "joydebpur",
+      "nameEn": "Joydebpur",
+      "busCount": 1
+    },
+    {
+      "id": "kajipara",
+      "nameEn": "Kajipara",
+      "busCount": 1
+    },
+    {
+      "id": "kalampur",
+      "nameEn": "Kalampur",
+      "busCount": 1
+    },
+    {
+      "id": "kamrangirchar",
+      "nameEn": "Kamrangirchar",
+      "busCount": 1
+    },
+    {
+      "id": "kanchan-bridge",
+      "nameEn": "Kanchan Bridge",
+      "busCount": 1
+    },
+    {
+      "id": "karwan-bazar",
+      "nameEn": "Karwan Bazar",
+      "busCount": 1
+    },
+    {
+      "id": "kashimpur",
+      "nameEn": "Kashimpur",
+      "busCount": 1
+    },
+    {
+      "id": "khilgaon-khidma-hospital",
+      "nameEn": "Khilgaon Khidma Hospital",
+      "busCount": 1
+    },
+    {
+      "id": "kuchimura",
+      "nameEn": "Kuchimura",
+      "busCount": 1
+    },
+    {
+      "id": "kuril-flyover",
+      "nameEn": "Kuril Flyover",
+      "busCount": 1
+    },
+    {
+      "id": "manik-mia-avenue",
+      "nameEn": "Manik Mia Avenue",
+      "busCount": 1
+    },
+    {
+      "id": "meghna-ghat",
+      "nameEn": "Meghna Ghat",
+      "busCount": 1
+    },
+    {
+      "id": "metro-hall",
+      "nameEn": "Metro Hall",
+      "busCount": 1
+    },
+    {
+      "id": "motsho-bhaban",
+      "nameEn": "Motsho Bhaban",
+      "busCount": 1
+    },
+    {
+      "id": "narshinghapur",
+      "nameEn": "Narshinghapur",
+      "busCount": 1
+    },
+    {
+      "id": "nawabganj",
+      "nameEn": "Nawabganj",
+      "busCount": 1
+    },
+    {
+      "id": "nila-market",
+      "nameEn": "Nila Market",
+      "busCount": 1
+    },
+    {
+      "id": "nimtola",
+      "nameEn": "Nimtola",
+      "busCount": 1
+    },
+    {
+      "id": "palli-bidyut",
+      "nameEn": "Palli Bidyut",
+      "busCount": 1
+    },
+    {
+      "id": "paturia",
+      "nameEn": "Paturia",
+      "busCount": 1
+    },
+    {
+      "id": "police-plaza",
+      "nameEn": "Police Plaza",
+      "busCount": 1
+    },
+    {
+      "id": "proshika-moor",
+      "nameEn": "Proshika Moor",
+      "busCount": 1
+    },
+    {
+      "id": "salimullah-road",
+      "nameEn": "Salimullah Road",
+      "busCount": 1
+    },
+    {
+      "id": "sanarpar",
+      "nameEn": "Sanarpar",
+      "busCount": 1
+    },
+    {
+      "id": "shib-bari",
+      "nameEn": "Shib Bari",
+      "busCount": 1
+    },
+    {
+      "id": "shimultola",
+      "nameEn": "Shimultola",
+      "busCount": 1
+    },
+    {
+      "id": "shiyal-bari",
+      "nameEn": "Shiyal Bari",
+      "busCount": 1
+    },
+    {
+      "id": "shonbari-sreenagar",
+      "nameEn": "Shonbari Sreenagar",
+      "busCount": 1
+    },
+    {
+      "id": "showari-ghat",
+      "nameEn": "Showari Ghat",
+      "busCount": 1
+    },
+    {
+      "id": "signal",
+      "nameEn": "Signal",
+      "busCount": 1
+    },
+    {
+      "id": "sikder-medical-college",
+      "nameEn": "Sikder Medical College",
+      "busCount": 1
+    },
+    {
+      "id": "south-banasree",
+      "nameEn": "South Banasree",
+      "busCount": 1
+    },
+    {
+      "id": "sura-bari",
+      "nameEn": "Sura Bari",
+      "busCount": 1
+    },
+    {
+      "id": "tarabo",
+      "nameEn": "Tarabo",
+      "busCount": 1
+    },
+    {
+      "id": "tikatuli",
+      "nameEn": "Tikatuli",
+      "busCount": 1
+    },
+    {
+      "id": "tt-para",
+      "nameEn": "TT Para",
+      "busCount": 1
+    },
+    {
+      "id": "victoria-park",
+      "nameEn": "Victoria Park",
+      "busCount": 1
+    }
+  ],
+  "busesMissingFare": [
+    {
+      "id": "4-no-alike-dhaka",
+      "nameEn": "4 No. Alike Dhaka",
+      "nameBn": "৪নং বাস"
+    },
+    {
+      "id": "6-no-dhaka",
+      "nameEn": "6 No. Dhaka",
+      "nameBn": "৬নং বাস"
+    },
+    {
+      "id": "6-no-motijheel-banani-transport-dhaka",
+      "nameEn": "6 No. Motijheel Banani Transport Dhaka",
+      "nameBn": "৬নং মতিঝিল বনানী ট্রান্সপোর্ট বাস"
+    },
+    {
+      "id": "7-no-dhaka",
+      "nameEn": "7 No. Dhaka",
+      "nameBn": "৭নং বাস"
+    },
+    {
+      "id": "8-no-dhaka",
+      "nameEn": "8 No. Dhaka",
+      "nameBn": "৮নং বাস"
+    },
+    {
+      "id": "achim-paribahan",
+      "nameEn": "Achim Paribahan",
+      "nameBn": "আছিম পরিবহন"
+    },
+    {
+      "id": "agradut",
+      "nameEn": "Agradut",
+      "nameBn": "অগ্রদূত"
+    },
+    {
+      "id": "airport-bangabandhu-avenue",
+      "nameEn": "Airport Bangabandhu Avenue",
+      "nameBn": "এয়ারপোর্ট বঙ্গবন্ধু এভিনিউ ট্রান্সপোর্ট"
+    },
+    {
+      "id": "akash-enterprise",
+      "nameEn": "Akash Enterprise",
+      "nameBn": "আকাশ বাস"
+    },
+    {
+      "id": "akik",
+      "nameEn": "Akik",
+      "nameBn": "আকিক বাস"
+    },
+    {
+      "id": "al-madina-plus-one",
+      "nameEn": "Al Madina Plus One",
+      "nameBn": "আল মনিদা প্লাস ওয়ান"
+    },
+    {
+      "id": "al-makka",
+      "nameEn": "Al Makka",
+      "nameBn": "আল মক্কা বাস"
+    },
+    {
+      "id": "alif",
+      "nameEn": "Alif",
+      "nameBn": "আলিফ বাস"
+    },
+    {
+      "id": "alif-10",
+      "nameEn": "Alif",
+      "nameBn": "আলিফ বাস"
+    },
+    {
+      "id": "alif-11",
+      "nameEn": "Alif",
+      "nameBn": "আলিফ বাস"
+    },
+    {
+      "id": "alif-12",
+      "nameEn": "Alif",
+      "nameBn": "আলিফ বাস"
+    },
+    {
+      "id": "anabil-super",
+      "nameEn": "Anabil Super",
+      "nameBn": "অনাবিল সুপার"
+    },
+    {
+      "id": "arnob",
+      "nameEn": "Arnob",
+      "nameBn": "অরনব বাস"
+    },
+    {
+      "id": "ashirbad-pahibahan",
+      "nameEn": "Ashirbad Pahibahan",
+      "nameBn": "আশীর্বাদ পরিবহন"
+    },
+    {
+      "id": "ashulia-classic",
+      "nameEn": "Ashulia Classic",
+      "nameBn": "আশুলিয়া ক্লাসিক বাস"
+    },
+    {
+      "id": "asmani",
+      "nameEn": "Asmani",
+      "nameBn": "আসমানী বাস"
+    },
+    {
+      "id": "atcl",
+      "nameEn": "ATCL",
+      "nameBn": "এটিসিএল বাস"
+    },
+    {
+      "id": "ayat",
+      "nameEn": "Ayat",
+      "nameBn": "আয়াত বাস"
+    },
+    {
+      "id": "azmeri-glory",
+      "nameEn": "Azmeri Glory",
+      "nameBn": "আজমেরী গ্লোরী"
+    },
+    {
+      "id": "bahon",
+      "nameEn": "Bahon",
+      "nameBn": "বাহন বাস"
+    },
+    {
+      "id": "baishakhi",
+      "nameEn": "Baishakhi",
+      "nameBn": "বৈশাখী বাস"
+    },
+    {
+      "id": "bashumoti",
+      "nameEn": "Bashumoti",
+      "nameBn": "বসুমতি বাস"
+    },
+    {
+      "id": "basumati",
+      "nameEn": "Basumati",
+      "nameBn": "বাসুমতি বাস"
+    },
+    {
+      "id": "basumati-transport",
+      "nameEn": "Basumati Transport",
+      "nameBn": "বাসুমতি ট্রান্সপোর্ট"
+    },
+    {
+      "id": "best-satabdi-ac",
+      "nameEn": "Best Satabdi AC",
+      "nameBn": "বেষ্ট শতাব্দী এসি বাস"
+    },
+    {
+      "id": "best-transport",
+      "nameEn": "Best Transport",
+      "nameBn": "বেষ্ট ট্রান্সপোর্ট বাস"
+    },
+    {
+      "id": "bhuiyan-paribahan",
+      "nameEn": "Bhuiyan Paribahan",
+      "nameBn": "ভূঁইয়া পরিবহন"
+    },
+    {
+      "id": "bihanga",
+      "nameEn": "Bihanga",
+      "nameBn": "বিহাঙ্গা বাস"
+    },
+    {
+      "id": "bikalpa-bus-auto-service",
+      "nameEn": "Bikalpa Bus Auto Service",
+      "nameBn": "বিকল্প বাস অটো সার্ভিস"
+    },
+    {
+      "id": "bikalpa-bus-city-super-service",
+      "nameEn": "Bikalpa Bus City Super Service",
+      "nameBn": "বিকল্প বাস সিটি সুপার সার্ভিস"
+    },
+    {
+      "id": "bikash",
+      "nameEn": "Bikash",
+      "nameBn": "বিকাশ বাস"
+    },
+    {
+      "id": "bikash-paribahan",
+      "nameEn": "Bikash Paribahan",
+      "nameBn": "বিকাশ পরিবহন বাস"
+    },
+    {
+      "id": "bondhu-paribahan",
+      "nameEn": "Bondhu Paribahan",
+      "nameBn": "বন্ধু পরিবহন বাস"
+    },
+    {
+      "id": "borak",
+      "nameEn": "Borak",
+      "nameBn": "বোরাক বাস"
+    },
+    {
+      "id": "brtc",
+      "nameEn": "BRTC",
+      "nameBn": "বি আর টিসি বাস"
+    },
+    {
+      "id": "brtc-37",
+      "nameEn": "BRTC",
+      "nameBn": "বি আর টিসি বাস"
+    },
+    {
+      "id": "brtc-38",
+      "nameEn": "BRTC",
+      "nameBn": "বি আর টিসি বাস"
+    },
+    {
+      "id": "brtc-39",
+      "nameEn": "BRTC",
+      "nameBn": "বি আর টিসি বাস"
+    },
+    {
+      "id": "brtc-40",
+      "nameEn": "BRTC",
+      "nameBn": "বি আর টিসি বাস"
+    },
+    {
+      "id": "brtc-41",
+      "nameEn": "BRTC",
+      "nameBn": "বি আর টিসি বাস"
+    },
+    {
+      "id": "brtc-42",
+      "nameEn": "BRTC",
+      "nameBn": "বি আর টিসি বাস"
+    },
+    {
+      "id": "brtc-43",
+      "nameEn": "BRTC",
+      "nameBn": "বি আর টিসি বাস"
+    },
+    {
+      "id": "brtc-44",
+      "nameEn": "BRTC",
+      "nameBn": "বি আর টিসি বাস"
+    },
+    {
+      "id": "brtc-articulated",
+      "nameEn": "BRTC Articulated",
+      "nameBn": "বি আর টিসি আরটিকুলেটেড বাস"
+    },
+    {
+      "id": "cantonment",
+      "nameEn": "Cantonment",
+      "nameBn": "ক্যান্টনমেন্ট বাস সার্ভিস"
+    },
+    {
+      "id": "cantonment-mini-service",
+      "nameEn": "Cantonment Mini Service",
+      "nameBn": "ক্যান্টনমেন্ট মিনি বাস সার্ভিস"
+    },
+    {
+      "id": "champion",
+      "nameEn": "Champion",
+      "nameBn": "চ্যাম্পিয়ন বাস"
+    },
+    {
+      "id": "city-link",
+      "nameEn": "City Link",
+      "nameBn": "সিটি লিংক বাস"
+    },
+    {
+      "id": "d-link",
+      "nameEn": "D Link",
+      "nameBn": "ডি লিংক বাস"
+    },
+    {
+      "id": "d-one-transport",
+      "nameEn": "D One Transport",
+      "nameBn": "ডি ওয়ান বাস"
+    },
+    {
+      "id": "deepan",
+      "nameEn": "Deepan",
+      "nameBn": "দিপান বাস"
+    },
+    {
+      "id": "desh-bangla",
+      "nameEn": "Desh Bangla",
+      "nameBn": "দেশ বাংলা বাস"
+    },
+    {
+      "id": "dewan",
+      "nameEn": "Dewan",
+      "nameBn": "দেওয়ান বাস"
+    },
+    {
+      "id": "dhakar-chaka",
+      "nameEn": "Dhakar Chaka",
+      "nameBn": "ঢাকার চাকা বাস"
+    },
+    {
+      "id": "dhakar-chaka-56",
+      "nameEn": "Dhakar Chaka",
+      "nameBn": "ঢাকার চাকা বাস"
+    },
+    {
+      "id": "dip-paribahan",
+      "nameEn": "Dip Paribahan",
+      "nameBn": "দ্বীপ পরিবহন বাস"
+    },
+    {
+      "id": "dipon",
+      "nameEn": "Dipon",
+      "nameBn": "দিপোন বাস"
+    },
+    {
+      "id": "dishari",
+      "nameEn": "Dishari",
+      "nameBn": "দিশারী বাস"
+    },
+    {
+      "id": "etc",
+      "nameEn": "ETC",
+      "nameBn": "ইটিসি বাস"
+    },
+    {
+      "id": "etc-transport",
+      "nameEn": "ETC Transport",
+      "nameBn": "ইটিসি ট্রান্সপোর্ট বাস"
+    },
+    {
+      "id": "everest-paribahan",
+      "nameEn": "Everest Paribahan",
+      "nameBn": "এভারেস্ট পরিবহন বাস"
+    },
+    {
+      "id": "first-ten",
+      "nameEn": "First Ten",
+      "nameBn": "ফার্স্ট টেন বাস"
+    },
+    {
+      "id": "ftcl",
+      "nameEn": "FTCL",
+      "nameBn": "এফটিসিএল বাস"
+    },
+    {
+      "id": "ftcl-65",
+      "nameEn": "FTCL",
+      "nameBn": "এফটিসিএল বাস"
+    },
+    {
+      "id": "gazipur-paribahan",
+      "nameEn": "Gazipur Paribahan",
+      "nameBn": "গাজীপুর পরিবহন বাস"
+    },
+    {
+      "id": "grameen",
+      "nameEn": "Grameen",
+      "nameBn": "গ্রামীণ বাস"
+    },
+    {
+      "id": "green-anabil",
+      "nameEn": "Green Anabil",
+      "nameBn": "গ্রীন অনাবিল বাস"
+    },
+    {
+      "id": "green-dhaka",
+      "nameEn": "Green Dhaka",
+      "nameBn": "গ্রীন ঢাকা বাস"
+    },
+    {
+      "id": "gulshan-chaka",
+      "nameEn": "Gulshan Chaka",
+      "nameBn": "গুলশান চাকা বাস"
+    },
+    {
+      "id": "hazi-transport",
+      "nameEn": "Hazi Transport",
+      "nameBn": "হাজি ট্রান্সপোর্ট বাস"
+    },
+    {
+      "id": "himachal",
+      "nameEn": "Himachal",
+      "nameBn": "হিমাচল বাস"
+    },
+    {
+      "id": "himachal-suveccha",
+      "nameEn": "Himachal Suveccha",
+      "nameBn": "হিমাচল শুভেচ্ছা বাস"
+    },
+    {
+      "id": "himalay",
+      "nameEn": "Himalay",
+      "nameBn": "হিমালয় বাস"
+    },
+    {
+      "id": "itihash",
+      "nameEn": "Itihash",
+      "nameBn": "ইতিহাস বাস"
+    },
+    {
+      "id": "jabale-noor-paribahan",
+      "nameEn": "Jabale Noor Paribahan",
+      "nameBn": "জাবালে নুর পরিবহন বাস"
+    },
+    {
+      "id": "jabale-noor-paribahan-77",
+      "nameEn": "Jabale Noor Paribahan",
+      "nameBn": "জাবালে নুর পরিবহন বাস"
+    },
+    {
+      "id": "kamal-plus-paribahan",
+      "nameEn": "Kamal Plus Paribahan",
+      "nameBn": "কামাল প্লাস পরিবহন বাস"
+    },
+    {
+      "id": "kanak",
+      "nameEn": "kanak",
+      "nameBn": "কনক বাস"
+    },
+    {
+      "id": "khajababa",
+      "nameEn": "Khajababa",
+      "nameBn": "খাজা বাবা বাস"
+    },
+    {
+      "id": "kironmala-paribahan",
+      "nameEn": "Kironmala Paribahan",
+      "nameBn": "কিরণমালা বাস"
+    },
+    {
+      "id": "labbayek",
+      "nameEn": "Labbayek",
+      "nameBn": "লাব্বাইক বাস"
+    },
+    {
+      "id": "lal-sabuj",
+      "nameEn": "Lal Sabuj",
+      "nameBn": "AC Bus Route"
+    },
+    {
+      "id": "lams-paribahan",
+      "nameEn": "Lams Paribahan",
+      "nameBn": "লামস পরিবহন বাস"
+    },
+    {
+      "id": "malancha",
+      "nameEn": "Malancha",
+      "nameBn": "মালঞ্চ বাস"
+    },
+    {
+      "id": "manjil-express",
+      "nameEn": "Manjil Express",
+      "nameBn": "মাঞ্জিল এক্সপ্রেস বাস"
+    },
+    {
+      "id": "meghla-transport",
+      "nameEn": "Meghla Transport",
+      "nameBn": "মেঘলা ট্রান্সপোর্ট বাস"
+    },
+    {
+      "id": "meshkat",
+      "nameEn": "Meshkat",
+      "nameBn": "মেসকাত বাস"
+    },
+    {
+      "id": "midline",
+      "nameEn": "Midline",
+      "nameBn": "মিডলাইন বাস"
+    },
+    {
+      "id": "mirpur-link",
+      "nameEn": "Mirpur Link",
+      "nameBn": "মিরপুর লিংক বাস"
+    },
+    {
+      "id": "mirpur-metro-services",
+      "nameEn": "Mirpur Metro Services",
+      "nameBn": "মিরপুর মেট্রো সার্ভিস বাস"
+    },
+    {
+      "id": "mirpur-mission",
+      "nameEn": "Mirpur Mission",
+      "nameBn": "মিরপুর মিশন বাস"
+    },
+    {
+      "id": "mirpur-united-service",
+      "nameEn": "Mirpur United Service",
+      "nameBn": "মিরপুর ইউনাইটেড সার্ভিস বাস"
+    },
+    {
+      "id": "mm-lovely",
+      "nameEn": "MM Lovely",
+      "nameBn": "এম এম লাভলী বাস"
+    },
+    {
+      "id": "modhumita",
+      "nameEn": "Modhumita",
+      "nameBn": "মধুমিতা বাস"
+    },
+    {
+      "id": "mohona",
+      "nameEn": "Mohona",
+      "nameBn": "মোহনা বাস"
+    },
+    {
+      "id": "moitri",
+      "nameEn": "Moitri",
+      "nameBn": "মৈত্রী বাস"
+    },
+    {
+      "id": "moumita",
+      "nameEn": "Moumita",
+      "nameBn": "মৌমিতা বাস"
+    },
+    {
+      "id": "mtcl-2",
+      "nameEn": "MTCL-2",
+      "nameBn": "এমটিসিএল ২ বাস"
+    },
+    {
+      "id": "new-vision-dhaka",
+      "nameEn": "New Vision Dhaka",
+      "nameBn": "নিউ ভিশন বাস"
+    },
+    {
+      "id": "nilachol-dhaka",
+      "nameEn": "Nilachol Dhaka",
+      "nameBn": "নিলাচল বাস"
+    },
+    {
+      "id": "nur-e-makka",
+      "nameEn": "Nur E Makka",
+      "nameBn": "নূর এ মক্কা বাস"
+    },
+    {
+      "id": "omama-international",
+      "nameEn": "Omama International",
+      "nameBn": "ওমামা ইন্টারন্যাশনাল বাস"
+    },
+    {
+      "id": "pallabi-super",
+      "nameEn": "Pallabi Super",
+      "nameBn": "পল্লবী সুপার বাস"
+    },
+    {
+      "id": "paristhan",
+      "nameEn": "Paristhan",
+      "nameBn": "পরিস্থান বাস"
+    },
+    {
+      "id": "prattay",
+      "nameEn": "Prattay",
+      "nameBn": "প্রত্যয় বাস"
+    },
+    {
+      "id": "prochesta",
+      "nameEn": "Prochesta",
+      "nameBn": "প্রচেষ্টা বাস"
+    },
+    {
+      "id": "projapati",
+      "nameEn": "Projapati",
+      "nameBn": "প্রজাপতি বাস"
+    },
+    {
+      "id": "provati-banasree",
+      "nameEn": "Provati Banasree",
+      "nameBn": "প্রভাতী বনশ্রী বাস"
+    },
+    {
+      "id": "purbachol-logistics-and-transport",
+      "nameEn": "Purbachol Logistics and Transport",
+      "nameBn": "পূর্বাচল লজিস্টিকস বাস"
+    },
+    {
+      "id": "raida-dhaka",
+      "nameEn": "Raida Dhaka",
+      "nameBn": "রাইদা বাস"
+    },
+    {
+      "id": "raja-city-dhaka",
+      "nameEn": "Raja City Dhaka",
+      "nameBn": "রাজা সিটি বাস"
+    },
+    {
+      "id": "rajanigandha-dhaka",
+      "nameEn": "Rajanigandha Dhaka",
+      "nameBn": "রজনীগন্ধা বাস"
+    },
+    {
+      "id": "rajdhani-super-dhaka",
+      "nameEn": "Rajdhani Super Dhaka",
+      "nameBn": "রাজধানী বাস"
+    },
+    {
+      "id": "ramjan-dhaka",
+      "nameEn": "Ramjan Dhaka",
+      "nameBn": "রমযান বাস"
+    },
+    {
+      "id": "robrob-dhaka",
+      "nameEn": "Robrob Dhaka",
+      "nameBn": "রবরব বাস"
+    },
+    {
+      "id": "rupa-paribahan-dhaka",
+      "nameEn": "Rupa Paribahan Dhaka",
+      "nameBn": "রুপা পরিবহন বাস"
+    },
+    {
+      "id": "safety-druti",
+      "nameEn": "Safety Druti",
+      "nameBn": "সেফটি দ্রুতি বাস"
+    },
+    {
+      "id": "sakalpa-transport",
+      "nameEn": "Sakalpa Transport",
+      "nameBn": "স্বকল্প ট্রান্সপোর্ট বাস"
+    },
+    {
+      "id": "salsabil",
+      "nameEn": "Salsabil",
+      "nameBn": "ছালছাবিল বাস"
+    },
+    {
+      "id": "savar-paribahan",
+      "nameEn": "Savar Paribahan",
+      "nameBn": "সাভার পরিবহন বাস"
+    },
+    {
+      "id": "shadhin",
+      "nameEn": "Shadhin",
+      "nameBn": "স্বাধীন বাস"
+    },
+    {
+      "id": "shadhin-express",
+      "nameEn": "Shadhin Express",
+      "nameBn": "স্বাধীন এক্সপ্রেস বাস"
+    },
+    {
+      "id": "shahria-enterprise",
+      "nameEn": "Shahria Enterprise",
+      "nameBn": "শাহরিয়া এন্টারপ্রাইজ বাস"
+    },
+    {
+      "id": "shatabdi",
+      "nameEn": "Shatabdi",
+      "nameBn": "শতাব্দি বাস"
+    },
+    {
+      "id": "shikhor-paribahan",
+      "nameEn": "Shikhor Paribahan",
+      "nameBn": "শিকড় পরিবহন বাস"
+    },
+    {
+      "id": "shikhor-paribahan-127",
+      "nameEn": "Shikhor Paribahan",
+      "nameBn": "শিকড় পরিবহন বাস"
+    },
+    {
+      "id": "siam-transport",
+      "nameEn": "Siam Transport",
+      "nameBn": "সিয়াম ট্রান্সপোর্ট বাস"
+    },
+    {
+      "id": "skyline",
+      "nameEn": "Skyline",
+      "nameBn": "স্কাই লাইন বাস"
+    },
+    {
+      "id": "super",
+      "nameEn": "Super",
+      "nameBn": "সুপার বাস"
+    },
+    {
+      "id": "supravat",
+      "nameEn": "Supravat",
+      "nameBn": "সুপ্রভাত বাস"
+    },
+    {
+      "id": "suveccha",
+      "nameEn": "Suveccha",
+      "nameBn": "শুভেচ্ছা বাস"
+    },
+    {
+      "id": "suvojatra-bus",
+      "nameEn": "Suvojatra Bus",
+      "nameBn": "শুভযাত্রা বাস"
+    },
+    {
+      "id": "swajan-paribahan",
+      "nameEn": "Swajan Paribahan",
+      "nameBn": "স্বজন পরিবহন বাস"
+    },
+    {
+      "id": "talukdar",
+      "nameEn": "Talukdar",
+      "nameBn": "তালুকদার বাস"
+    },
+    {
+      "id": "tanjil-paribahan",
+      "nameEn": "Tanjil Paribahan",
+      "nameBn": "তানজিল পরিবহন বাস"
+    },
+    {
+      "id": "taranga-plus",
+      "nameEn": "Taranga Plus",
+      "nameBn": "তরঙ্গ প্লাস বাস"
+    },
+    {
+      "id": "tetulia",
+      "nameEn": "Tetulia",
+      "nameBn": "তেতুলিয়া বাস"
+    },
+    {
+      "id": "thikana",
+      "nameEn": "Thikana",
+      "nameBn": "ঠিকানা বাস"
+    },
+    {
+      "id": "thikana-express",
+      "nameEn": "Thikana Express",
+      "nameBn": "ঠিকানা এক্সপ্রেস বাস"
+    },
+    {
+      "id": "titas",
+      "nameEn": "Titas",
+      "nameBn": "তিতাস বাস"
+    },
+    {
+      "id": "transilva",
+      "nameEn": "Transilva",
+      "nameBn": "ট্রান্সিল্ভা বাস"
+    },
+    {
+      "id": "trust-transport-services",
+      "nameEn": "Trust Transport Services",
+      "nameBn": "ট্রাষ্ট ট্রান্সপোর্ট বাস"
+    },
+    {
+      "id": "trust-transport-services-144",
+      "nameEn": "Trust Transport Services",
+      "nameBn": "ট্রাষ্ট ট্রান্সপোর্ট বাস"
+    },
+    {
+      "id": "trust-transport-services-145",
+      "nameEn": "Trust Transport Services",
+      "nameBn": "ট্রাষ্ট ট্রান্সপোর্ট বাস"
+    },
+    {
+      "id": "trust-transport-services-146",
+      "nameEn": "Trust Transport Services",
+      "nameBn": "ট্রস্ট ট্রান্সপোর্ট বাস এসি"
+    },
+    {
+      "id": "victor-classic",
+      "nameEn": "Victor Classic",
+      "nameBn": "ভিক্টর ক্লাসিক বাস"
+    },
+    {
+      "id": "victor-paribahan",
+      "nameEn": "Victor Paribahan",
+      "nameBn": "ভিক্টর পরিবহন বাস"
+    },
+    {
+      "id": "vip-27",
+      "nameEn": "VIP 27",
+      "nameBn": "ভিআইপি ২৭ বাস"
+    },
+    {
+      "id": "welcome",
+      "nameEn": "Welcome",
+      "nameBn": "ওয়েলকাম বাস"
+    },
+    {
+      "id": "winner",
+      "nameEn": "Winner",
+      "nameBn": "উইনার বাস"
+    }
+  ]
+}

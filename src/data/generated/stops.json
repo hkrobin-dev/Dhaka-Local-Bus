@@ -1,0 +1,2390 @@
+{
+  "generatedAt": "2026-10-01T15:30:33.125Z",
+  "stops": [
+    {
+      "id": "paltan",
+      "nameEn": "Paltan",
+      "nameBn": "পল্টন",
+      "aliases": [
+        "Press Club Paltan"
+      ],
+      "busCount": 68,
+      "lat": 23.731756,
+      "lng": 90.411419
+    },
+    {
+      "id": "shahbag",
+      "nameEn": "Shahbag",
+      "nameBn": "শাহবাগ",
+      "aliases": [],
+      "busCount": 57,
+      "lat": 23.737336,
+      "lng": 90.396172
+    },
+    {
+      "id": "gpo",
+      "nameEn": "GPO",
+      "nameBn": "জিপিও",
+      "aliases": [],
+      "busCount": 52,
+      "lat": 23.72893,
+      "lng": 90.411401
+    },
+    {
+      "id": "azimpur",
+      "nameEn": "Azampur",
+      "nameBn": "আযমপুর",
+      "aliases": [
+        "Azampur"
+      ],
+      "busCount": 51,
+      "lat": 23.86655,
+      "lng": 90.41001
+    },
+    {
+      "id": "farmgate",
+      "nameEn": "Farmgate",
+      "nameBn": "ফার্মগেট",
+      "aliases": [
+        "Farmgate Bijoy Sarani"
+      ],
+      "busCount": 50,
+      "lat": 23.759039,
+      "lng": 90.387111
+    },
+    {
+      "id": "kuril-bishwa-road",
+      "nameEn": "Kuril Bishwa Road",
+      "nameBn": "কুড়িল বিশ্বরোড",
+      "aliases": [
+        "Kuril Bissho Road"
+      ],
+      "busCount": 49,
+      "lat": 23.821208,
+      "lng": 90.419537
+    },
+    {
+      "id": "gulistan",
+      "nameEn": "Gulistan",
+      "nameBn": "গুলিস্তান",
+      "aliases": [],
+      "busCount": 48,
+      "lat": 23.724904,
+      "lng": 90.412079
+    },
+    {
+      "id": "technical",
+      "nameEn": "Technical",
+      "nameBn": "টেকনিক্যাল",
+      "aliases": [],
+      "busCount": 47,
+      "lat": 23.780428,
+      "lng": 90.352835
+    },
+    {
+      "id": "high-court",
+      "nameEn": "High Court",
+      "nameBn": "হাইকোর্ট",
+      "aliases": [],
+      "busCount": 46,
+      "lat": null,
+      "lng": null
+    },
+    {
+      "id": "press-club",
+      "nameEn": "Press Club",
+      "nameBn": "প্রেস ক্লাব",
+      "aliases": [],
+      "busCount": 46,
+      "lat": 23.729508,
+      "lng": 90.4067
+    },
+    {
+      "id": "mirpur-10",
+      "nameEn": "Mirpur 10",
+      "nameBn": "মিরপুর ১০",
+      "aliases": [],
+      "busCount": 45,
+      "lat": 23.808365,
+      "lng": 90.368261
+    },
+    {
+      "id": "gabtoli",
+      "nameEn": "Gabtoli",
+      "nameBn": "গাবতলী",
+      "aliases": [],
+      "busCount": 43,
+      "lat": null,
+      "lng": null
+    },
+    {
+      "id": "bangla-motor",
+      "nameEn": "Bangla Motor",
+      "nameBn": "বাংলা মোটর",
+      "aliases": [
+        "Bangla Motor Shahbag"
+      ],
+      "busCount": 41,
+      "lat": 23.74584,
+      "lng": 90.394939
+    },
+    {
+      "id": "shyamoli",
+      "nameEn": "Shyamoli",
+      "nameBn": "শামলী",
+      "aliases": [],
+      "busCount": 41,
+      "lat": 23.774395,
+      "lng": 90.365428
+    },
+    {
+      "id": "kawran-bazar",
+      "nameEn": "Kawran Bazar",
+      "nameBn": "কওরান বাজার",
+      "aliases": [],
+      "busCount": 40,
+      "lat": 23.751431,
+      "lng": 90.39486
+    },
+    {
+      "id": "airport",
+      "nameEn": "Airport",
+      "nameBn": "এয়ারপোর্ট",
+      "aliases": [
+        "Airport Jashimuddin (Uttara)"
+      ],
+      "busCount": 39,
+      "lat": 23.851999,
+      "lng": 90.404459
+    },
+    {
+      "id": "matsya-bhaban",
+      "nameEn": "Matsya Bhaban",
+      "nameBn": "মৎস্যভবন",
+      "aliases": [],
+      "busCount": 39,
+      "lat": null,
+      "lng": null
+    },
+    {
+      "id": "asad-gate",
+      "nameEn": "Asad Gate",
+      "nameBn": "আসাদ গেট",
+      "aliases": [],
+      "busCount": 38,
+      "lat": 23.76013,
+      "lng": 90.372725
+    },
+    {
+      "id": "mirpur-1",
+      "nameEn": "Mirpur 1",
+      "nameBn": "মিরপুর ১",
+      "aliases": [],
+      "busCount": 38,
+      "lat": 23.801924,
+      "lng": 90.352346
+    },
+    {
+      "id": "shishu-mela",
+      "nameEn": "Shishu Mela",
+      "nameBn": "শিশুমেলা",
+      "aliases": [],
+      "busCount": 38,
+      "lat": 23.773007,
+      "lng": 90.36788
+    },
+    {
+      "id": "khilkhet",
+      "nameEn": "Khilkhet",
+      "nameBn": "খিলখিজ",
+      "aliases": [],
+      "busCount": 37,
+      "lat": 23.835132,
+      "lng": 90.435112
+    },
+    {
+      "id": "kallyanpur",
+      "nameEn": "Kallyanpur",
+      "nameBn": "কল্যাণপুর",
+      "aliases": [],
+      "busCount": 36,
+      "lat": 23.780685,
+      "lng": 90.361332
+    },
+    {
+      "id": "motijheel",
+      "nameEn": "Motijheel",
+      "nameBn": "মতিঝিল",
+      "aliases": [],
+      "busCount": 36,
+      "lat": 23.72726,
+      "lng": 90.421196
+    },
+    {
+      "id": "rajlakshmi",
+      "nameEn": "Rajlakshmi",
+      "nameBn": "রাজলক্ষ্মী",
+      "aliases": [
+        "Rajlakshmi House Building"
+      ],
+      "busCount": 36,
+      "lat": 23.864328,
+      "lng": 90.399944
+    },
+    {
+      "id": "house-building",
+      "nameEn": "House Building",
+      "nameBn": "হাউস বিল্ডিং",
+      "aliases": [],
+      "busCount": 35,
+      "lat": 23.874827,
+      "lng": 90.40069
+    },
+    {
+      "id": "jashimuddin-uttara",
+      "nameEn": "Jashimuddin (Uttara)",
+      "nameBn": "জাশিমউদ্দিন উত্তরা",
+      "aliases": [],
+      "busCount": 35,
+      "lat": 23.86122,
+      "lng": 90.397293
+    },
+    {
+      "id": "abdullahpur",
+      "nameEn": "Abdullahpur",
+      "nameBn": "আব্দুল্লাহপুর",
+      "aliases": [],
+      "busCount": 33,
+      "lat": null,
+      "lng": null
+    },
+    {
+      "id": "city-college",
+      "nameEn": "City College",
+      "nameBn": "সিটি কলেজ",
+      "aliases": [],
+      "busCount": 33,
+      "lat": 23.739768,
+      "lng": 90.382567
+    },
+    {
+      "id": "college-gate",
+      "nameEn": "College Gate",
+      "nameBn": "কলেজ গেট",
+      "aliases": [],
+      "busCount": 32,
+      "lat": null,
+      "lng": null
+    },
+    {
+      "id": "khamar-bari",
+      "nameEn": "Khamar Bari",
+      "nameBn": "খামারবাড়ি",
+      "aliases": [
+        "Khamarbari",
+        "Khamar Bari Farmgate"
+      ],
+      "busCount": 31,
+      "lat": 23.759127,
+      "lng": 90.383882
+    },
+    {
+      "id": "mohakhali",
+      "nameEn": "Mohakhali",
+      "nameBn": "মোহাকালি",
+      "aliases": [],
+      "busCount": 31,
+      "lat": 23.779906,
+      "lng": 90.408316
+    },
+    {
+      "id": "jatrabari",
+      "nameEn": "Jatrabari",
+      "nameBn": "জাতরবাড়ি",
+      "aliases": [],
+      "busCount": 30,
+      "lat": 23.709398,
+      "lng": 90.433806
+    },
+    {
+      "id": "notun-bazar",
+      "nameEn": "Notun Bazar",
+      "nameBn": "নতুনবাজার",
+      "aliases": [],
+      "busCount": 30,
+      "lat": 23.798294,
+      "lng": 90.423971
+    },
+    {
+      "id": "agargaon",
+      "nameEn": "Agargaon",
+      "nameBn": "আগরগাঁও",
+      "aliases": [],
+      "busCount": 28,
+      "lat": 23.778427,
+      "lng": 90.38005
+    },
+    {
+      "id": "mirpur-2",
+      "nameEn": "Mirpur 2",
+      "nameBn": "মিরপুর ২",
+      "aliases": [
+        "Mirpur 2 Mirpur 10"
+      ],
+      "busCount": 28,
+      "lat": 23.80634,
+      "lng": 90.357026
+    },
+    {
+      "id": "purobi",
+      "nameEn": "Purobi",
+      "nameBn": "পুরোবী",
+      "aliases": [
+        "Purobi Pallabi"
+      ],
+      "busCount": 28,
+      "lat": null,
+      "lng": null
+    },
+    {
+      "id": "mes",
+      "nameEn": "MES",
+      "nameBn": "এমইএস",
+      "aliases": [],
+      "busCount": 27,
+      "lat": 23.814536,
+      "lng": 90.404068
+    },
+    {
+      "id": "rampura-bridge",
+      "nameEn": "Rampura Bridge",
+      "nameBn": "রামপুরা ব্রিজ",
+      "aliases": [],
+      "busCount": 27,
+      "lat": 23.76803,
+      "lng": 90.42334
+    },
+    {
+      "id": "sayedabad",
+      "nameEn": "Sayedabad",
+      "nameBn": "সায়েবাদ",
+      "aliases": [],
+      "busCount": 27,
+      "lat": 23.711228,
+      "lng": 90.428681
+    },
+    {
+      "id": "science-lab",
+      "nameEn": "Science Lab",
+      "nameBn": "সায়েন্স ল্যাব",
+      "aliases": [],
+      "busCount": 27,
+      "lat": 23.739693,
+      "lng": 90.383606
+    },
+    {
+      "id": "shewra",
+      "nameEn": "Shewra",
+      "nameBn": "শেওড়া",
+      "aliases": [],
+      "busCount": 27,
+      "lat": 23.817994,
+      "lng": 90.413606
+    },
+    {
+      "id": "mirpur-11",
+      "nameEn": "Mirpur 11",
+      "nameBn": "মিরপুর ১১",
+      "aliases": [],
+      "busCount": 26,
+      "lat": 23.819096,
+      "lng": 90.365281
+    },
+    {
+      "id": "bashtola",
+      "nameEn": "Bashtola",
+      "nameBn": null,
+      "aliases": [],
+      "busCount": 25,
+      "lat": 23.794405,
+      "lng": 90.422513
+    },
+    {
+      "id": "kalabagan",
+      "nameEn": "Kalabagan",
+      "nameBn": "কলাবাগান",
+      "aliases": [
+        "Kalabagan City College",
+        "Dhanmondi 32 Kalabagan",
+        "Kolabagan"
+      ],
+      "busCount": 25,
+      "lat": 23.747948,
+      "lng": 90.381387
+    },
+    {
+      "id": "malibagh-moor",
+      "nameEn": "Malibagh Moor",
+      "nameBn": "মালিবাগ মোড়",
+      "aliases": [],
+      "busCount": 25,
+      "lat": null,
+      "lng": null
+    },
+    {
+      "id": "mouchak",
+      "nameEn": "Mouchak",
+      "nameBn": "মৌচাক",
+      "aliases": [],
+      "busCount": 24,
+      "lat": 23.694678,
+      "lng": 90.495158
+    },
+    {
+      "id": "amin-bazar",
+      "nameEn": "Amin Bazar",
+      "nameBn": "আমিনবাজার",
+      "aliases": [],
+      "busCount": 23,
+      "lat": 23.79819,
+      "lng": 90.337935
+    },
+    {
+      "id": "ansar-camp",
+      "nameEn": "Ansar Camp",
+      "nameBn": null,
+      "aliases": [],
+      "busCount": 23,
+      "lat": null,
+      "lng": null
+    },
+    {
+      "id": "banani",
+      "nameEn": "Banani",
+      "nameBn": "বনানী",
+      "aliases": [],
+      "busCount": 23,
+      "lat": 23.790321,
+      "lng": 90.407696
+    },
+    {
+      "id": "bashundhara",
+      "nameEn": "Bashundhara",
+      "nameBn": "বসুন্ধরা",
+      "aliases": [
+        "Bashundhara (300 Feet Gate)"
+      ],
+      "busCount": 23,
+      "lat": null,
+      "lng": null
+    },
+    {
+      "id": "hemayetpur",
+      "nameEn": "Hemayetpur",
+      "nameBn": null,
+      "aliases": [],
+      "busCount": 23,
+      "lat": 23.793526,
+      "lng": 90.270874
+    },
+    {
+      "id": "jahangir-gate",
+      "nameEn": "Jahangir Gate",
+      "nameBn": null,
+      "aliases": [],
+      "busCount": 23,
+      "lat": 23.775774,
+      "lng": 90.390038
+    },
+    {
+      "id": "merul",
+      "nameEn": "Merul",
+      "nameBn": "মেরুল",
+      "aliases": [],
+      "busCount": 23,
+      "lat": 23.771858,
+      "lng": 90.425081
+    },
+    {
+      "id": "jamuna-future-park",
+      "nameEn": "Jamuna Future Park",
+      "nameBn": "যমুনা ফিউচার পার্ক",
+      "aliases": [],
+      "busCount": 22,
+      "lat": 23.813498,
+      "lng": 90.424089
+    },
+    {
+      "id": "nadda",
+      "nameEn": "Nadda",
+      "nameBn": "নাড়া",
+      "aliases": [],
+      "busCount": 22,
+      "lat": 23.810373,
+      "lng": 90.419524
+    },
+    {
+      "id": "shewrapara",
+      "nameEn": "Shewrapara",
+      "nameBn": "শিয়রপাড়া",
+      "aliases": [
+        "Kazipara Shewrapara"
+      ],
+      "busCount": 22,
+      "lat": 23.790963,
+      "lng": 90.375509
+    },
+    {
+      "id": "sony-cinema-hall",
+      "nameEn": "Sony Cinema Hall",
+      "nameBn": "সনি সিনেমা হল",
+      "aliases": [
+        "Sony Cenema Hall",
+        "Mirpur Sony Cinema Hall",
+        "Sony Cinema Hall Mirpur 1"
+      ],
+      "busCount": 22,
+      "lat": 23.800487,
+      "lng": 90.355393
+    },
+    {
+      "id": "badda",
+      "nameEn": "Badda",
+      "nameBn": "বাড্ডি",
+      "aliases": [],
+      "busCount": 21,
+      "lat": 23.776543,
+      "lng": 90.446301
+    },
+    {
+      "id": "dhanmondi-27",
+      "nameEn": "Dhanmondi 27",
+      "nameBn": "ধানমন্ডি ২৭",
+      "aliases": [],
+      "busCount": 21,
+      "lat": 23.754089,
+      "lng": 90.371351
+    },
+    {
+      "id": "golap-shah-mazar",
+      "nameEn": "Golap Shah Mazar",
+      "nameBn": "গোলাপ শাহ মাজার",
+      "aliases": [],
+      "busCount": 21,
+      "lat": 23.724985,
+      "lng": 90.410844
+    },
+    {
+      "id": "savar",
+      "nameEn": "Savar",
+      "nameBn": "সাভার",
+      "aliases": [],
+      "busCount": 21,
+      "lat": 23.8477,
+      "lng": 90.2587
+    },
+    {
+      "id": "shahjadpur",
+      "nameEn": "Shahjadpur",
+      "nameBn": "শাহজাদপুর",
+      "aliases": [],
+      "busCount": 21,
+      "lat": 23.791914,
+      "lng": 90.42428
+    },
+    {
+      "id": "dhanmondi-32",
+      "nameEn": "Dhanmondi 32",
+      "nameBn": "ধানমন্ডি ৩২",
+      "aliases": [],
+      "busCount": 20,
+      "lat": null,
+      "lng": null
+    },
+    {
+      "id": "kakali",
+      "nameEn": "Kakali",
+      "nameBn": null,
+      "aliases": [],
+      "busCount": 20,
+      "lat": 23.820295,
+      "lng": 90.368293
+    },
+    {
+      "id": "kakrail",
+      "nameEn": "Kakrail",
+      "nameBn": null,
+      "aliases": [],
+      "busCount": 20,
+      "lat": 23.73854,
+      "lng": 90.407147
+    },
+    {
+      "id": "kazipara",
+      "nameEn": "Kazipara",
+      "nameBn": "কাজীপাড়া",
+      "aliases": [],
+      "busCount": 20,
+      "lat": 23.799241,
+      "lng": 90.371988
+    },
+    {
+      "id": "bijoy-sarani",
+      "nameEn": "Bijoy Sarani",
+      "nameBn": null,
+      "aliases": [],
+      "busCount": 19,
+      "lat": 23.768352,
+      "lng": 90.391857
+    },
+    {
+      "id": "mohammadpur",
+      "nameEn": "Mohammadpur",
+      "nameBn": null,
+      "aliases": [
+        "Mohammadpur Bus Stand"
+      ],
+      "busCount": 19,
+      "lat": 23.759389,
+      "lng": 90.366325
+    },
+    {
+      "id": "shonir-akhra",
+      "nameEn": "Shonir Akhra",
+      "nameBn": "সোনির আখড়া",
+      "aliases": [
+        "Shanir Akhra"
+      ],
+      "busCount": 19,
+      "lat": 23.703661,
+      "lng": 90.45088
+    },
+    {
+      "id": "sign-board",
+      "nameEn": "Sign Board",
+      "nameBn": null,
+      "aliases": [],
+      "busCount": 19,
+      "lat": null,
+      "lng": null
+    },
+    {
+      "id": "kalshi",
+      "nameEn": "Kalshi",
+      "nameBn": "কালসী",
+      "aliases": [
+        "Kalshi Pallabi"
+      ],
+      "busCount": 18,
+      "lat": 23.820293,
+      "lng": 90.371041
+    },
+    {
+      "id": "new-market",
+      "nameEn": "New Market",
+      "nameBn": "নিউ মার্কেট",
+      "aliases": [
+        "New Market Nilkhet"
+      ],
+      "busCount": 18,
+      "lat": null,
+      "lng": null
+    },
+    {
+      "id": "rampura-bazar",
+      "nameEn": "Rampura Bazar",
+      "nameBn": null,
+      "aliases": [],
+      "busCount": 18,
+      "lat": 23.760243,
+      "lng": 90.418621
+    },
+    {
+      "id": "rayer-bazar",
+      "nameEn": "Rayerbag",
+      "nameBn": "রায়েরবাজার",
+      "aliases": [
+        "Rayerbag"
+      ],
+      "busCount": 18,
+      "lat": 23.698048,
+      "lng": 90.457102
+    },
+    {
+      "id": "uttar-badda",
+      "nameEn": "Uttar Badda",
+      "nameBn": "উত্তর বাড্ডি",
+      "aliases": [],
+      "busCount": 18,
+      "lat": 23.785704,
+      "lng": 90.425611
+    },
+    {
+      "id": "matuail",
+      "nameEn": "Matuail",
+      "nameBn": "মতুইল",
+      "aliases": [],
+      "busCount": 17,
+      "lat": 23.705268,
+      "lng": 90.460633
+    },
+    {
+      "id": "nilkhet",
+      "nameEn": "Nilkhet",
+      "nameBn": "নিলখেত",
+      "aliases": [],
+      "busCount": 17,
+      "lat": 23.732936,
+      "lng": 90.386085
+    },
+    {
+      "id": "shantinagar",
+      "nameEn": "Shantinagar",
+      "nameBn": "শান্তিনগর",
+      "aliases": [],
+      "busCount": 17,
+      "lat": 23.741566,
+      "lng": 90.412061
+    },
+    {
+      "id": "bata-signal",
+      "nameEn": "Bata Signal",
+      "nameBn": "বাটা সিগন্যাল",
+      "aliases": [],
+      "busCount": 16,
+      "lat": 23.739079,
+      "lng": 90.388677
+    },
+    {
+      "id": "ecb-square",
+      "nameEn": "ECB Square",
+      "nameBn": null,
+      "aliases": [],
+      "busCount": 16,
+      "lat": null,
+      "lng": null
+    },
+    {
+      "id": "gulshan-1",
+      "nameEn": "Gulshan 1",
+      "nameBn": "গুলশান ১",
+      "aliases": [],
+      "busCount": 16,
+      "lat": 23.780553,
+      "lng": 90.4169
+    },
+    {
+      "id": "malibagh-railgate",
+      "nameEn": "Malibagh Railgate",
+      "nameBn": "মালিবাগ রেলগেট",
+      "aliases": [],
+      "busCount": 16,
+      "lat": 23.749697,
+      "lng": 90.412635
+    },
+    {
+      "id": "taltola",
+      "nameEn": "Taltola",
+      "nameBn": "টালতলা",
+      "aliases": [],
+      "busCount": 16,
+      "lat": 23.777933,
+      "lng": 90.374011
+    },
+    {
+      "id": "tongi",
+      "nameEn": "Tongi",
+      "nameBn": "টঙ্গী",
+      "aliases": [],
+      "busCount": 16,
+      "lat": null,
+      "lng": null
+    },
+    {
+      "id": "chairman-bari",
+      "nameEn": "Chairman Bari",
+      "nameBn": null,
+      "aliases": [],
+      "busCount": 15,
+      "lat": null,
+      "lng": null
+    },
+    {
+      "id": "mogbazar",
+      "nameEn": "Mogbazar",
+      "nameBn": null,
+      "aliases": [
+        "Mogbazar Mohakhali"
+      ],
+      "busCount": 15,
+      "lat": 23.754587,
+      "lng": 90.409689
+    },
+    {
+      "id": "pallabi",
+      "nameEn": "Pallabi",
+      "nameBn": "পল্লাবী",
+      "aliases": [],
+      "busCount": 15,
+      "lat": 23.824637,
+      "lng": 90.367595
+    },
+    {
+      "id": "hazipara",
+      "nameEn": "Hazipara",
+      "nameBn": "হাজীপাড়া",
+      "aliases": [],
+      "busCount": 14,
+      "lat": null,
+      "lng": null
+    },
+    {
+      "id": "jigatola",
+      "nameEn": "Jigatola",
+      "nameBn": "জিগাতলা",
+      "aliases": [],
+      "busCount": 14,
+      "lat": 23.740319,
+      "lng": 90.372048
+    },
+    {
+      "id": "naya-bazar",
+      "nameEn": "Naya Bazar",
+      "nameBn": "নয়াবাজার",
+      "aliases": [],
+      "busCount": 14,
+      "lat": 23.713723,
+      "lng": 90.404543
+    },
+    {
+      "id": "shankar",
+      "nameEn": "Shankar",
+      "nameBn": "শাঙ্কর",
+      "aliases": [],
+      "busCount": 14,
+      "lat": 23.749615,
+      "lng": 90.366098
+    },
+    {
+      "id": "baipayl",
+      "nameEn": "Baipayl",
+      "nameBn": "বাইপাইল",
+      "aliases": [
+        "Nobinagar Baipayl"
+      ],
+      "busCount": 13,
+      "lat": 23.938001,
+      "lng": 90.270064
+    },
+    {
+      "id": "dhanmondi-15",
+      "nameEn": "Dhanmondi 15",
+      "nameBn": "ধানমন্ডি ১৫",
+      "aliases": [],
+      "busCount": 13,
+      "lat": 23.738297,
+      "lng": 90.381244
+    },
+    {
+      "id": "mirpur-12",
+      "nameEn": "Mirpur 12",
+      "nameBn": "মিরপুর ১২",
+      "aliases": [],
+      "busCount": 13,
+      "lat": 23.825104,
+      "lng": 90.370672
+    },
+    {
+      "id": "mirpur-14",
+      "nameEn": "Mirpur 14",
+      "nameBn": "মিরপুর ১৪",
+      "aliases": [],
+      "busCount": 13,
+      "lat": 23.798842,
+      "lng": 90.384712
+    },
+    {
+      "id": "staff-road",
+      "nameEn": "Staff Road",
+      "nameBn": null,
+      "aliases": [],
+      "busCount": 13,
+      "lat": 23.812752,
+      "lng": 90.401702
+    },
+    {
+      "id": "banasree",
+      "nameEn": "Banasree",
+      "nameBn": "বনশ্রী",
+      "aliases": [],
+      "busCount": 12,
+      "lat": 23.761712,
+      "lng": 90.431277
+    },
+    {
+      "id": "darussalam",
+      "nameEn": "Darussalam",
+      "nameBn": "দারুসসালাম",
+      "aliases": [],
+      "busCount": 12,
+      "lat": 23.757099,
+      "lng": 90.370446
+    },
+    {
+      "id": "sainik-club",
+      "nameEn": "Sainik Club",
+      "nameBn": null,
+      "aliases": [],
+      "busCount": 12,
+      "lat": 23.79123,
+      "lng": 90.399527
+    },
+    {
+      "id": "star-kabab",
+      "nameEn": "Star Kabab",
+      "nameBn": "স্টার কাবাব",
+      "aliases": [],
+      "busCount": 12,
+      "lat": 23.74751,
+      "lng": 90.370201
+    },
+    {
+      "id": "badda-link-road",
+      "nameEn": "Badda Link Road",
+      "nameBn": "বাড্ডি লিংক রোড",
+      "aliases": [],
+      "busCount": 11,
+      "lat": 23.770382,
+      "lng": 90.422875
+    },
+    {
+      "id": "board-bazar",
+      "nameEn": "Board Bazar",
+      "nameBn": "বোর্ড বাজার",
+      "aliases": [],
+      "busCount": 11,
+      "lat": 23.945207,
+      "lng": 90.382517
+    },
+    {
+      "id": "chiriyakhana",
+      "nameEn": "Chiriyakhana",
+      "nameBn": "চিরিয়াখানা",
+      "aliases": [],
+      "busCount": 11,
+      "lat": null,
+      "lng": null
+    },
+    {
+      "id": "gazipur-chourasta",
+      "nameEn": "Gazipur Chourasta",
+      "nameBn": "গাজীপুর চৌরাস্তা",
+      "aliases": [],
+      "busCount": 11,
+      "lat": null,
+      "lng": null
+    },
+    {
+      "id": "mill-gate",
+      "nameEn": "Mill Gate",
+      "nameBn": null,
+      "aliases": [],
+      "busCount": 11,
+      "lat": 23.896014,
+      "lng": 90.399377
+    },
+    {
+      "id": "nabisco",
+      "nameEn": "Nabisco",
+      "nameBn": null,
+      "aliases": [],
+      "busCount": 11,
+      "lat": 23.769259,
+      "lng": 90.401223
+    },
+    {
+      "id": "nandan-park",
+      "nameEn": "Nandan Park",
+      "nameBn": null,
+      "aliases": [],
+      "busCount": 11,
+      "lat": null,
+      "lng": null
+    },
+    {
+      "id": "sadarghat",
+      "nameEn": "Sadarghat",
+      "nameBn": "সদরঘাট",
+      "aliases": [],
+      "busCount": 11,
+      "lat": 23.705892,
+      "lng": 90.409286
+    },
+    {
+      "id": "zirani-bazar",
+      "nameEn": "Zirani Bazar",
+      "nameBn": null,
+      "aliases": [],
+      "busCount": 11,
+      "lat": null,
+      "lng": null
+    },
+    {
+      "id": "bashabo",
+      "nameEn": "Bashabo",
+      "nameBn": "বাশাবো",
+      "aliases": [],
+      "busCount": 10,
+      "lat": 23.740547,
+      "lng": 90.433348
+    },
+    {
+      "id": "chittagong-road",
+      "nameEn": "Chittagong Road",
+      "nameBn": "চট্টগ্রাম রোড",
+      "aliases": [],
+      "busCount": 10,
+      "lat": 23.69726,
+      "lng": 90.509467
+    },
+    {
+      "id": "ray-saheb-bazar",
+      "nameEn": "Ray Saheb Bazar",
+      "nameBn": "রায়সাহেববাজার",
+      "aliases": [
+        "Ray Shaheb Bazar"
+      ],
+      "busCount": 10,
+      "lat": 23.713866,
+      "lng": 90.411512
+    },
+    {
+      "id": "station-road",
+      "nameEn": "Station Road",
+      "nameBn": null,
+      "aliases": [],
+      "busCount": 10,
+      "lat": 23.891987,
+      "lng": 90.40228
+    },
+    {
+      "id": "chandra",
+      "nameEn": "Chandra",
+      "nameBn": "চন্দ্রা",
+      "aliases": [
+        "Nobinagar Chandra"
+      ],
+      "busCount": 9,
+      "lat": null,
+      "lng": null
+    },
+    {
+      "id": "janapath-moor",
+      "nameEn": "Janapath Moor",
+      "nameBn": null,
+      "aliases": [],
+      "busCount": 9,
+      "lat": null,
+      "lng": null
+    },
+    {
+      "id": "mugdapara",
+      "nameEn": "Mugdapara",
+      "nameBn": null,
+      "aliases": [],
+      "busCount": 9,
+      "lat": 23.729122,
+      "lng": 90.433565
+    },
+    {
+      "id": "nobinagar",
+      "nameEn": "Nobinagar",
+      "nameBn": null,
+      "aliases": [],
+      "busCount": 9,
+      "lat": 23.915482,
+      "lng": 90.259228
+    },
+    {
+      "id": "wireless",
+      "nameEn": "Wireless",
+      "nameBn": null,
+      "aliases": [],
+      "busCount": 9,
+      "lat": 23.750488,
+      "lng": 90.408696
+    },
+    {
+      "id": "bakshi-bazar",
+      "nameEn": "Bakshi Bazar",
+      "nameBn": null,
+      "aliases": [],
+      "busCount": 8,
+      "lat": 23.722559,
+      "lng": 90.395559
+    },
+    {
+      "id": "chankhar-pul",
+      "nameEn": "Chankhar Pul",
+      "nameBn": null,
+      "aliases": [],
+      "busCount": 8,
+      "lat": 23.723833,
+      "lng": 90.400344
+    },
+    {
+      "id": "dainik-bangla-moor",
+      "nameEn": "Dainik Bangla Moor",
+      "nameBn": null,
+      "aliases": [],
+      "busCount": 8,
+      "lat": null,
+      "lng": null
+    },
+    {
+      "id": "kamalapur",
+      "nameEn": "Kamalapur",
+      "nameBn": null,
+      "aliases": [],
+      "busCount": 8,
+      "lat": 23.731872,
+      "lng": 90.425344
+    },
+    {
+      "id": "kamarpara",
+      "nameEn": "Kamarpara",
+      "nameBn": null,
+      "aliases": [],
+      "busCount": 8,
+      "lat": 23.889186,
+      "lng": 90.388279
+    },
+    {
+      "id": "arambagh",
+      "nameEn": "Arambagh",
+      "nameBn": "আরামবাগ",
+      "aliases": [],
+      "busCount": 7,
+      "lat": 23.730902,
+      "lng": 90.421566
+    },
+    {
+      "id": "demra-staff-quarter",
+      "nameEn": "Demra Staff Quarter",
+      "nameBn": "ডেমরা স্টাফ কোয়ার্টার",
+      "aliases": [],
+      "busCount": 7,
+      "lat": 23.719729,
+      "lng": 90.490529
+    },
+    {
+      "id": "khilgaon",
+      "nameEn": "Khilgaon",
+      "nameBn": "খিলগাঁও",
+      "aliases": [],
+      "busCount": 7,
+      "lat": 23.750655,
+      "lng": 90.423282
+    },
+    {
+      "id": "madhya-badda",
+      "nameEn": "Madhya Badda",
+      "nameBn": "মধ্য বাড্ডি",
+      "aliases": [],
+      "busCount": 7,
+      "lat": null,
+      "lng": null
+    },
+    {
+      "id": "babubazar",
+      "nameEn": "Babubazar",
+      "nameBn": "বাবুবাজার",
+      "aliases": [],
+      "busCount": 6,
+      "lat": 23.71164,
+      "lng": 90.403291
+    },
+    {
+      "id": "gazipur-bypass",
+      "nameEn": "Gazipur Bypass",
+      "nameBn": "গাজীপুর বাইপাস",
+      "aliases": [],
+      "busCount": 6,
+      "lat": null,
+      "lng": null
+    },
+    {
+      "id": "gulshan-2",
+      "nameEn": "Gulshan 2",
+      "nameBn": "গুলশান ২",
+      "aliases": [],
+      "busCount": 6,
+      "lat": 23.794719,
+      "lng": 90.413699
+    },
+    {
+      "id": "katabon",
+      "nameEn": "Katabon",
+      "nameBn": null,
+      "aliases": [],
+      "busCount": 6,
+      "lat": 23.738742,
+      "lng": 90.391
+    },
+    {
+      "id": "keraniganj",
+      "nameEn": "Keraniganj",
+      "nameBn": "কেরানীগঞ্জ",
+      "aliases": [],
+      "busCount": 6,
+      "lat": 23.700501,
+      "lng": 90.382644
+    },
+    {
+      "id": "postagola",
+      "nameEn": "Postagola",
+      "nameBn": "পোস্টাগোলা",
+      "aliases": [],
+      "busCount": 6,
+      "lat": 23.688171,
+      "lng": 90.42976
+    },
+    {
+      "id": "bosila",
+      "nameEn": "Bosila",
+      "nameBn": "বসিলা",
+      "aliases": [],
+      "busCount": 5,
+      "lat": null,
+      "lng": null
+    },
+    {
+      "id": "satrasta",
+      "nameEn": "Satrasta",
+      "nameBn": "সাতরাস্তা",
+      "aliases": [
+        "Sat rasta"
+      ],
+      "busCount": 5,
+      "lat": 23.757446,
+      "lng": 90.392425
+    },
+    {
+      "id": "zia-uddyan",
+      "nameEn": "Zia Uddyan",
+      "nameBn": null,
+      "aliases": [],
+      "busCount": 5,
+      "lat": null,
+      "lng": null
+    },
+    {
+      "id": "zirabo",
+      "nameEn": "Zirabo",
+      "nameBn": null,
+      "aliases": [],
+      "busCount": 5,
+      "lat": 23.913216,
+      "lng": 90.321227
+    },
+    {
+      "id": "ashulia",
+      "nameEn": "Ashulia",
+      "nameBn": "আসুলিয়া",
+      "aliases": [],
+      "busCount": 4,
+      "lat": 23.89699,
+      "lng": 90.328958
+    },
+    {
+      "id": "bangla-college",
+      "nameEn": "Bangla College",
+      "nameBn": "বাংলা কলেজ",
+      "aliases": [],
+      "busCount": 4,
+      "lat": 23.784952,
+      "lng": 90.352762
+    },
+    {
+      "id": "beribadh",
+      "nameEn": "Beribadh",
+      "nameBn": null,
+      "aliases": [
+        "Beribadh Tin Rastar Moor"
+      ],
+      "busCount": 4,
+      "lat": null,
+      "lng": null
+    },
+    {
+      "id": "cantonment",
+      "nameEn": "Garrison (Cantonment)",
+      "nameBn": "ক্যান্টনমেন্ট",
+      "aliases": [
+        "Garrison (Cantonment)"
+      ],
+      "busCount": 4,
+      "lat": 23.802413,
+      "lng": 90.395533
+    },
+    {
+      "id": "dholairpar",
+      "nameEn": "Dholairpar",
+      "nameBn": null,
+      "aliases": [],
+      "busCount": 4,
+      "lat": 23.702605,
+      "lng": 90.43534
+    },
+    {
+      "id": "fantasy-kingdom",
+      "nameEn": "Fantasy Kingdom",
+      "nameBn": null,
+      "aliases": [],
+      "busCount": 4,
+      "lat": 23.934274,
+      "lng": 90.291488
+    },
+    {
+      "id": "fulbaria",
+      "nameEn": "Fulbaria",
+      "nameBn": null,
+      "aliases": [],
+      "busCount": 4,
+      "lat": null,
+      "lng": null
+    },
+    {
+      "id": "japan-garden-city",
+      "nameEn": "Japan Garden City",
+      "nameBn": null,
+      "aliases": [],
+      "busCount": 4,
+      "lat": 23.764222,
+      "lng": 90.358475
+    },
+    {
+      "id": "konabari",
+      "nameEn": "Konabari",
+      "nameBn": null,
+      "aliases": [],
+      "busCount": 4,
+      "lat": null,
+      "lng": null
+    },
+    {
+      "id": "manik-nagar",
+      "nameEn": "Manik Nagar",
+      "nameBn": null,
+      "aliases": [],
+      "busCount": 4,
+      "lat": 23.722485,
+      "lng": 90.428939
+    },
+    {
+      "id": "rajarbag",
+      "nameEn": "Rajarbag",
+      "nameBn": "রাজারবাগ",
+      "aliases": [],
+      "busCount": 4,
+      "lat": null,
+      "lng": null
+    },
+    {
+      "id": "shukrabad",
+      "nameEn": "Shukrabad",
+      "nameBn": "শুক্রবাদ",
+      "aliases": [],
+      "busCount": 4,
+      "lat": 23.753706,
+      "lng": 90.379781
+    },
+    {
+      "id": "vashantek",
+      "nameEn": "Vashantek",
+      "nameBn": null,
+      "aliases": [],
+      "busCount": 4,
+      "lat": null,
+      "lng": null
+    },
+    {
+      "id": "workshop",
+      "nameEn": "Workshop",
+      "nameBn": null,
+      "aliases": [],
+      "busCount": 4,
+      "lat": null,
+      "lng": null
+    },
+    {
+      "id": "adabor",
+      "nameEn": "Adabor",
+      "nameBn": "আদাবর",
+      "aliases": [],
+      "busCount": 3,
+      "lat": 23.772436,
+      "lng": 90.35608
+    },
+    {
+      "id": "birulia",
+      "nameEn": "Birulia",
+      "nameBn": "বিরুলিয়া",
+      "aliases": [],
+      "busCount": 3,
+      "lat": 23.850165,
+      "lng": 90.333934
+    },
+    {
+      "id": "chashara",
+      "nameEn": "Chashara",
+      "nameBn": null,
+      "aliases": [],
+      "busCount": 3,
+      "lat": 23.623904,
+      "lng": 90.498947
+    },
+    {
+      "id": "dayaganj",
+      "nameEn": "Dayaganj",
+      "nameBn": "দয়াগঞ্জ",
+      "aliases": [],
+      "busCount": 3,
+      "lat": 23.710442,
+      "lng": 90.424639
+    },
+    {
+      "id": "dhakeshwari",
+      "nameEn": "Dhakeshwari",
+      "nameBn": "ঢাকেশ্বরী",
+      "aliases": [],
+      "busCount": 3,
+      "lat": 23.72321,
+      "lng": 90.389745
+    },
+    {
+      "id": "dhour",
+      "nameEn": "Dhour",
+      "nameBn": null,
+      "aliases": [],
+      "busCount": 3,
+      "lat": 23.891188,
+      "lng": 90.371868
+    },
+    {
+      "id": "ghatar-char",
+      "nameEn": "Ghatar Char",
+      "nameBn": null,
+      "aliases": [],
+      "busCount": 3,
+      "lat": 23.736237,
+      "lng": 90.336007
+    },
+    {
+      "id": "golapbag-chourasta",
+      "nameEn": "Golapbag Chourasta",
+      "nameBn": null,
+      "aliases": [],
+      "busCount": 3,
+      "lat": null,
+      "lng": null
+    },
+    {
+      "id": "ittefaq-moor",
+      "nameEn": "Ittefaq Moor",
+      "nameBn": "ইত্তেফাক মোড়",
+      "aliases": [
+        "Ittefaq Moor Sayedabad"
+      ],
+      "busCount": 3,
+      "lat": null,
+      "lng": null
+    },
+    {
+      "id": "jalkuri",
+      "nameEn": "Jalkuri",
+      "nameBn": null,
+      "aliases": [],
+      "busCount": 3,
+      "lat": 23.662851,
+      "lng": 90.48988
+    },
+    {
+      "id": "jurain",
+      "nameEn": "Jurain",
+      "nameBn": null,
+      "aliases": [],
+      "busCount": 3,
+      "lat": 23.696246,
+      "lng": 90.434313
+    },
+    {
+      "id": "kachukhet",
+      "nameEn": "Kachukhet",
+      "nameBn": "কাচুখেত",
+      "aliases": [],
+      "busCount": 3,
+      "lat": 23.793558,
+      "lng": 90.390282
+    },
+    {
+      "id": "kazla",
+      "nameEn": "Kazla",
+      "nameBn": null,
+      "aliases": [],
+      "busCount": 3,
+      "lat": null,
+      "lng": null
+    },
+    {
+      "id": "khilgaon-flyover",
+      "nameEn": "Khilgaon Flyover",
+      "nameBn": null,
+      "aliases": [],
+      "busCount": 3,
+      "lat": 23.743799,
+      "lng": 90.426607
+    },
+    {
+      "id": "kuril-chourasta",
+      "nameEn": "Kuril Chourasta",
+      "nameBn": null,
+      "aliases": [],
+      "busCount": 3,
+      "lat": null,
+      "lng": null
+    },
+    {
+      "id": "madanpur",
+      "nameEn": "Madanpur",
+      "nameBn": null,
+      "aliases": [],
+      "busCount": 3,
+      "lat": 23.692251,
+      "lng": 90.547031
+    },
+    {
+      "id": "maowa",
+      "nameEn": "Maowa",
+      "nameBn": null,
+      "aliases": [],
+      "busCount": 3,
+      "lat": 23.474043,
+      "lng": 90.25527
+    },
+    {
+      "id": "ring-road",
+      "nameEn": "Ring Road",
+      "nameBn": null,
+      "aliases": [],
+      "busCount": 3,
+      "lat": 23.77045,
+      "lng": 90.359073
+    },
+    {
+      "id": "rupnagar",
+      "nameEn": "Rupnagar",
+      "nameBn": null,
+      "aliases": [],
+      "busCount": 3,
+      "lat": 23.823258,
+      "lng": 90.354313
+    },
+    {
+      "id": "saudi-colony",
+      "nameEn": "Saudi Colony",
+      "nameBn": null,
+      "aliases": [],
+      "busCount": 3,
+      "lat": 23.778344,
+      "lng": 90.389365
+    },
+    {
+      "id": "shibu-market",
+      "nameEn": "Shibu Market",
+      "nameBn": null,
+      "aliases": [],
+      "busCount": 3,
+      "lat": 23.644113,
+      "lng": 90.493485
+    },
+    {
+      "id": "adamjee-school",
+      "nameEn": "Adamjee School",
+      "nameBn": null,
+      "aliases": [],
+      "busCount": 2,
+      "lat": null,
+      "lng": null
+    },
+    {
+      "id": "balughat",
+      "nameEn": "Balughat",
+      "nameBn": null,
+      "aliases": [],
+      "busCount": 2,
+      "lat": 23.828937,
+      "lng": 90.390412
+    },
+    {
+      "id": "dhamrai",
+      "nameEn": "Dhamra",
+      "nameBn": "ধামরাই",
+      "aliases": [
+        "Dhamra"
+      ],
+      "busCount": 2,
+      "lat": null,
+      "lng": null
+    },
+    {
+      "id": "diabari",
+      "nameEn": "Diabari",
+      "nameBn": null,
+      "aliases": [],
+      "busCount": 2,
+      "lat": null,
+      "lng": null
+    },
+    {
+      "id": "duaripara",
+      "nameEn": "Duaripara",
+      "nameBn": null,
+      "aliases": [],
+      "busCount": 2,
+      "lat": 23.827266,
+      "lng": 90.35654
+    },
+    {
+      "id": "eden-college",
+      "nameEn": "Eden College",
+      "nameBn": null,
+      "aliases": [],
+      "busCount": 2,
+      "lat": 23.728795,
+      "lng": 90.387105
+    },
+    {
+      "id": "jamgora",
+      "nameEn": "Jamgora",
+      "nameBn": null,
+      "aliases": [],
+      "busCount": 2,
+      "lat": 23.544224,
+      "lng": 90.344015
+    },
+    {
+      "id": "kadamtali",
+      "nameEn": "Kadamtali",
+      "nameBn": null,
+      "aliases": [],
+      "busCount": 2,
+      "lat": 23.702155,
+      "lng": 90.397903
+    },
+    {
+      "id": "kanchpur",
+      "nameEn": "Kanchpur",
+      "nameBn": null,
+      "aliases": [],
+      "busCount": 2,
+      "lat": null,
+      "lng": null
+    },
+    {
+      "id": "manikganj",
+      "nameEn": "Manikganj",
+      "nameBn": "মানিকগঞ্জ",
+      "aliases": [],
+      "busCount": 2,
+      "lat": null,
+      "lng": null
+    },
+    {
+      "id": "mazar-road",
+      "nameEn": "Mazar Road",
+      "nameBn": "মাজার রোড",
+      "aliases": [],
+      "busCount": 2,
+      "lat": 23.791884,
+      "lng": 90.34857
+    },
+    {
+      "id": "mirpur-13",
+      "nameEn": "Mirpur 13",
+      "nameBn": "মিরপুর ১৩",
+      "aliases": [],
+      "busCount": 2,
+      "lat": 23.8064,
+      "lng": 90.37765
+    },
+    {
+      "id": "mirpur-dohs",
+      "nameEn": "Mirpur DOHS",
+      "nameBn": "মিরপুর ডিওএইচএস",
+      "aliases": [],
+      "busCount": 2,
+      "lat": 23.837188,
+      "lng": 90.368983
+    },
+    {
+      "id": "old-airport",
+      "nameEn": "Old Airport",
+      "nameBn": "পুরোনো এয়ারপোর্ট",
+      "aliases": [],
+      "busCount": 2,
+      "lat": 23.772189,
+      "lng": 90.390127
+    },
+    {
+      "id": "panthapath",
+      "nameEn": "Panthapath",
+      "nameBn": null,
+      "aliases": [
+        "Panthopoth"
+      ],
+      "busCount": 2,
+      "lat": 23.752873,
+      "lng": 90.382751
+    },
+    {
+      "id": "rajendrapur",
+      "nameEn": "Rajendrapur",
+      "nameBn": null,
+      "aliases": [],
+      "busCount": 2,
+      "lat": null,
+      "lng": null
+    },
+    {
+      "id": "rupnagar-abashik",
+      "nameEn": "Rupnagar Abashik",
+      "nameBn": null,
+      "aliases": [],
+      "busCount": 2,
+      "lat": null,
+      "lng": null
+    },
+    {
+      "id": "shia-mosque",
+      "nameEn": "Shia Mosque",
+      "nameBn": null,
+      "aliases": [],
+      "busCount": 2,
+      "lat": null,
+      "lng": null
+    },
+    {
+      "id": "tajmahal-road",
+      "nameEn": "Tajmahal Road",
+      "nameBn": null,
+      "aliases": [],
+      "busCount": 2,
+      "lat": 23.763331,
+      "lng": 90.362208
+    },
+    {
+      "id": "tolarbag",
+      "nameEn": "Tolarbag",
+      "nameBn": null,
+      "aliases": [],
+      "busCount": 2,
+      "lat": 23.788434,
+      "lng": 90.351657
+    },
+    {
+      "id": "vulta",
+      "nameEn": "Vulta",
+      "nameBn": null,
+      "aliases": [],
+      "busCount": 2,
+      "lat": 23.784275,
+      "lng": 90.564189
+    },
+    {
+      "id": "300-feet",
+      "nameEn": "300 Feet",
+      "nameBn": null,
+      "aliases": [],
+      "busCount": 1,
+      "lat": 23.788353,
+      "lng": 90.366665
+    },
+    {
+      "id": "abdulla",
+      "nameEn": "Abdulla",
+      "nameBn": null,
+      "aliases": [],
+      "busCount": 1,
+      "lat": 23.718646,
+      "lng": 90.400712
+    },
+    {
+      "id": "adabor-shyamoli",
+      "nameEn": "Adabor Shyamoli",
+      "nameBn": null,
+      "aliases": [],
+      "busCount": 1,
+      "lat": 23.762938,
+      "lng": 90.356768
+    },
+    {
+      "id": "adamjee-college",
+      "nameEn": "Adamjee College",
+      "nameBn": null,
+      "aliases": [],
+      "busCount": 1,
+      "lat": 23.794469,
+      "lng": 90.394123
+    },
+    {
+      "id": "arambagh-kingdom",
+      "nameEn": "Arambagh Kingdom",
+      "nameBn": null,
+      "aliases": [],
+      "busCount": 1,
+      "lat": null,
+      "lng": null
+    },
+    {
+      "id": "arambagh-notre-dame-college",
+      "nameEn": "Arambagh Notre Dame College",
+      "nameBn": null,
+      "aliases": [],
+      "busCount": 1,
+      "lat": null,
+      "lng": null
+    },
+    {
+      "id": "ashulia-bazar",
+      "nameEn": "Ashulia Bazar",
+      "nameBn": null,
+      "aliases": [],
+      "busCount": 1,
+      "lat": 23.905239,
+      "lng": 90.293008
+    },
+    {
+      "id": "baitul-mukarram",
+      "nameEn": "Baitul Mukarram",
+      "nameBn": "বায়তুল মোকাররম",
+      "aliases": [],
+      "busCount": 1,
+      "lat": 23.729472,
+      "lng": 90.412617
+    },
+    {
+      "id": "bangladesh-bank",
+      "nameEn": "Bangladesh Bank",
+      "nameBn": null,
+      "aliases": [],
+      "busCount": 1,
+      "lat": 23.726327,
+      "lng": 90.422799
+    },
+    {
+      "id": "baromi",
+      "nameEn": "Baromi",
+      "nameBn": null,
+      "aliases": [],
+      "busCount": 1,
+      "lat": null,
+      "lng": null
+    },
+    {
+      "id": "bot-tola",
+      "nameEn": "Bot tola",
+      "nameBn": null,
+      "aliases": [],
+      "busCount": 1,
+      "lat": 23.879671,
+      "lng": 90.265294
+    },
+    {
+      "id": "cmh",
+      "nameEn": "CMH",
+      "nameBn": null,
+      "aliases": [],
+      "busCount": 1,
+      "lat": 23.814334,
+      "lng": 90.398087
+    },
+    {
+      "id": "dhupkhola",
+      "nameEn": "Dhupkhola",
+      "nameBn": null,
+      "aliases": [],
+      "busCount": 1,
+      "lat": 23.706308,
+      "lng": 90.42193
+    },
+    {
+      "id": "dia-bari",
+      "nameEn": "Dia Bari",
+      "nameBn": null,
+      "aliases": [],
+      "busCount": 1,
+      "lat": null,
+      "lng": null
+    },
+    {
+      "id": "fakirapul",
+      "nameEn": "Fakirapul",
+      "nameBn": "ফকিরপুল",
+      "aliases": [],
+      "busCount": 1,
+      "lat": 23.73255,
+      "lng": 90.416987
+    },
+    {
+      "id": "gandaria",
+      "nameEn": "Gandaria",
+      "nameBn": "গন্ডারিয়া",
+      "aliases": [],
+      "busCount": 1,
+      "lat": 23.70608,
+      "lng": 90.426386
+    },
+    {
+      "id": "gulshan-link-road",
+      "nameEn": "Gulshan Link Road",
+      "nameBn": "গুলশান লিংক রোড",
+      "aliases": [],
+      "busCount": 1,
+      "lat": 23.771273,
+      "lng": 90.403691
+    },
+    {
+      "id": "hasnabad",
+      "nameEn": "Hasnabad",
+      "nameBn": null,
+      "aliases": [],
+      "busCount": 1,
+      "lat": 23.682636,
+      "lng": 90.426613
+    },
+    {
+      "id": "hazaribag",
+      "nameEn": "Hazaribag",
+      "nameBn": null,
+      "aliases": [],
+      "busCount": 1,
+      "lat": 23.733724,
+      "lng": 90.35578
+    },
+    {
+      "id": "idb",
+      "nameEn": "IDB",
+      "nameBn": null,
+      "aliases": [],
+      "busCount": 1,
+      "lat": 23.778746,
+      "lng": 90.379174
+    },
+    {
+      "id": "jakir-hossen-road",
+      "nameEn": "Jakir Hossen Road",
+      "nameBn": null,
+      "aliases": [],
+      "busCount": 1,
+      "lat": null,
+      "lng": null
+    },
+    {
+      "id": "jarun",
+      "nameEn": "Jarun",
+      "nameBn": null,
+      "aliases": [],
+      "busCount": 1,
+      "lat": null,
+      "lng": null
+    },
+    {
+      "id": "joydebpur",
+      "nameEn": "Joydebpur",
+      "nameBn": null,
+      "aliases": [],
+      "busCount": 1,
+      "lat": null,
+      "lng": null
+    },
+    {
+      "id": "kajipara",
+      "nameEn": "Kajipara",
+      "nameBn": null,
+      "aliases": [],
+      "busCount": 1,
+      "lat": null,
+      "lng": null
+    },
+    {
+      "id": "kalampur",
+      "nameEn": "Kalampur",
+      "nameBn": null,
+      "aliases": [],
+      "busCount": 1,
+      "lat": null,
+      "lng": null
+    },
+    {
+      "id": "kamlapur",
+      "nameEn": "Kamlapur",
+      "nameBn": "কামালপুর",
+      "aliases": [],
+      "busCount": 1,
+      "lat": 23.71327,
+      "lng": 90.427892
+    },
+    {
+      "id": "kamrangirchar",
+      "nameEn": "Kamrangirchar",
+      "nameBn": null,
+      "aliases": [],
+      "busCount": 1,
+      "lat": 23.714547,
+      "lng": 90.381358
+    },
+    {
+      "id": "kanchan-bridge",
+      "nameEn": "Kanchan Bridge",
+      "nameBn": null,
+      "aliases": [],
+      "busCount": 1,
+      "lat": null,
+      "lng": null
+    },
+    {
+      "id": "karwan-bazar",
+      "nameEn": "Karwan Bazar",
+      "nameBn": null,
+      "aliases": [],
+      "busCount": 1,
+      "lat": 23.751266,
+      "lng": 90.392776
+    },
+    {
+      "id": "kashimpur",
+      "nameEn": "Kashimpur",
+      "nameBn": null,
+      "aliases": [],
+      "busCount": 1,
+      "lat": null,
+      "lng": null
+    },
+    {
+      "id": "khilgaon-khidma-hospital",
+      "nameEn": "Khilgaon Khidma Hospital",
+      "nameBn": null,
+      "aliases": [],
+      "busCount": 1,
+      "lat": null,
+      "lng": null
+    },
+    {
+      "id": "kuchimura",
+      "nameEn": "Kuchimura",
+      "nameBn": null,
+      "aliases": [],
+      "busCount": 1,
+      "lat": null,
+      "lng": null
+    },
+    {
+      "id": "kuril-flyover",
+      "nameEn": "Kuril Flyover",
+      "nameBn": null,
+      "aliases": [],
+      "busCount": 1,
+      "lat": 23.822354,
+      "lng": 90.420025
+    },
+    {
+      "id": "malibagh",
+      "nameEn": "Malibagh",
+      "nameBn": "মালিবাগ",
+      "aliases": [],
+      "busCount": 1,
+      "lat": 23.747067,
+      "lng": 90.413772
+    },
+    {
+      "id": "manik-mia-avenue",
+      "nameEn": "Manik Mia Avenue",
+      "nameBn": null,
+      "aliases": [],
+      "busCount": 1,
+      "lat": 23.758363,
+      "lng": 90.379281
+    },
+    {
+      "id": "meghna-ghat",
+      "nameEn": "Meghna Ghat",
+      "nameBn": null,
+      "aliases": [],
+      "busCount": 1,
+      "lat": null,
+      "lng": null
+    },
+    {
+      "id": "metro-hall",
+      "nameEn": "Metro Hall",
+      "nameBn": null,
+      "aliases": [],
+      "busCount": 1,
+      "lat": 23.624336,
+      "lng": 90.50479
+    },
+    {
+      "id": "mitford-ghat",
+      "nameEn": "Mitford Ghat",
+      "nameBn": "মিটফোর্ড ঘাট",
+      "aliases": [],
+      "busCount": 1,
+      "lat": 23.710034,
+      "lng": 90.401615
+    },
+    {
+      "id": "motsho-bhaban",
+      "nameEn": "Motsho Bhaban",
+      "nameBn": null,
+      "aliases": [],
+      "busCount": 1,
+      "lat": null,
+      "lng": null
+    },
+    {
+      "id": "narshinghapur",
+      "nameEn": "Narshinghapur",
+      "nameBn": null,
+      "aliases": [],
+      "busCount": 1,
+      "lat": 23.943305,
+      "lng": 90.311344
+    },
+    {
+      "id": "nawabganj",
+      "nameEn": "Nawabganj",
+      "nameBn": null,
+      "aliases": [],
+      "busCount": 1,
+      "lat": 23.722891,
+      "lng": 90.376536
+    },
+    {
+      "id": "nila-market",
+      "nameEn": "Nila Market",
+      "nameBn": null,
+      "aliases": [],
+      "busCount": 1,
+      "lat": null,
+      "lng": null
+    },
+    {
+      "id": "nimtola",
+      "nameEn": "Nimtola",
+      "nameBn": null,
+      "aliases": [],
+      "busCount": 1,
+      "lat": null,
+      "lng": null
+    },
+    {
+      "id": "palashi",
+      "nameEn": "Palashi",
+      "nameBn": "পলাশী",
+      "aliases": [],
+      "busCount": 1,
+      "lat": 23.726231,
+      "lng": 90.387249
+    },
+    {
+      "id": "palli-bidyut",
+      "nameEn": "Palli Bidyut",
+      "nameBn": null,
+      "aliases": [],
+      "busCount": 1,
+      "lat": 23.924306,
+      "lng": 90.263235
+    },
+    {
+      "id": "paturia",
+      "nameEn": "Paturia",
+      "nameBn": null,
+      "aliases": [],
+      "busCount": 1,
+      "lat": null,
+      "lng": null
+    },
+    {
+      "id": "police-plaza",
+      "nameEn": "Police Plaza",
+      "nameBn": null,
+      "aliases": [],
+      "busCount": 1,
+      "lat": 23.772305,
+      "lng": 90.415735
+    },
+    {
+      "id": "proshika-moor",
+      "nameEn": "Proshika Moor",
+      "nameBn": null,
+      "aliases": [],
+      "busCount": 1,
+      "lat": null,
+      "lng": null
+    },
+    {
+      "id": "salimullah-road",
+      "nameEn": "Salimullah Road",
+      "nameBn": null,
+      "aliases": [],
+      "busCount": 1,
+      "lat": 23.758824,
+      "lng": 90.363501
+    },
+    {
+      "id": "sanarpar",
+      "nameEn": "Sanarpar",
+      "nameBn": null,
+      "aliases": [],
+      "busCount": 1,
+      "lat": 23.696912,
+      "lng": 90.49032
+    },
+    {
+      "id": "savar-cantonment",
+      "nameEn": "Savar Cantonment",
+      "nameBn": "সাভার ক্যান্টনমেন্ট",
+      "aliases": [],
+      "busCount": 1,
+      "lat": 23.917256,
+      "lng": 90.260387
+    },
+    {
+      "id": "shib-bari",
+      "nameEn": "Shib Bari",
+      "nameBn": null,
+      "aliases": [],
+      "busCount": 1,
+      "lat": null,
+      "lng": null
+    },
+    {
+      "id": "shimultola",
+      "nameEn": "Shimultola",
+      "nameBn": null,
+      "aliases": [],
+      "busCount": 1,
+      "lat": null,
+      "lng": null
+    },
+    {
+      "id": "shiyal-bari",
+      "nameEn": "Shiyal Bari",
+      "nameBn": null,
+      "aliases": [],
+      "busCount": 1,
+      "lat": 23.808195,
+      "lng": 90.358017
+    },
+    {
+      "id": "shonbari-sreenagar",
+      "nameEn": "Shonbari Sreenagar",
+      "nameBn": null,
+      "aliases": [],
+      "busCount": 1,
+      "lat": 23.544658,
+      "lng": 90.301163
+    },
+    {
+      "id": "showari-ghat",
+      "nameEn": "Showari Ghat",
+      "nameBn": null,
+      "aliases": [],
+      "busCount": 1,
+      "lat": 23.710865,
+      "lng": 90.394355
+    },
+    {
+      "id": "signal",
+      "nameEn": "Signal",
+      "nameBn": null,
+      "aliases": [],
+      "busCount": 1,
+      "lat": 23.739079,
+      "lng": 90.388677
+    },
+    {
+      "id": "sikder-medical-college",
+      "nameEn": "Sikder Medical College",
+      "nameBn": null,
+      "aliases": [],
+      "busCount": 1,
+      "lat": 23.741338,
+      "lng": 90.360392
+    },
+    {
+      "id": "south-banasree",
+      "nameEn": "South Banasree",
+      "nameBn": null,
+      "aliases": [],
+      "busCount": 1,
+      "lat": null,
+      "lng": null
+    },
+    {
+      "id": "sreepur",
+      "nameEn": "Sreepur",
+      "nameBn": "শ্রীপুর",
+      "aliases": [],
+      "busCount": 1,
+      "lat": null,
+      "lng": null
+    },
+    {
+      "id": "sura-bari",
+      "nameEn": "Sura Bari",
+      "nameBn": null,
+      "aliases": [],
+      "busCount": 1,
+      "lat": null,
+      "lng": null
+    },
+    {
+      "id": "tarabo",
+      "nameEn": "Tarabo",
+      "nameBn": null,
+      "aliases": [],
+      "busCount": 1,
+      "lat": 23.721567,
+      "lng": 90.503959
+    },
+    {
+      "id": "tikatuli",
+      "nameEn": "Tikatuli",
+      "nameBn": null,
+      "aliases": [],
+      "busCount": 1,
+      "lat": 23.718976,
+      "lng": 90.424011
+    },
+    {
+      "id": "tt-para",
+      "nameEn": "TT Para",
+      "nameBn": null,
+      "aliases": [],
+      "busCount": 1,
+      "lat": null,
+      "lng": null
+    },
+    {
+      "id": "victoria-park",
+      "nameEn": "Victoria Park",
+      "nameBn": null,
+      "aliases": [],
+      "busCount": 1,
+      "lat": 23.709212,
+      "lng": 90.41235
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "_comment": "Hand-curated stop cleanup. Each entry maps a RAW stop name exactly as it appears in the source JSON to a CANONICAL stop id. Ids are slugs. The build script fails loudly if an id here does not exist in the data, so typos get caught.",
+
+  "alias": {
+    "Kuril  Bishwa Road": "kuril-bishwa-road",
+    "Kuril Bissho Road": "kuril-bishwa-road",
+
+    "Sony CInema Hall": "sony-cinema-hall",
+    "Sony Cenema Hall": "sony-cinema-hall",
+    "Mirpur Sony Cinema Hall": "sony-cinema-hall",
+    "Sony Cinema Hall Mirpur 1": "sony-cinema-hall",
+
+    "- Ray Saheb Bazar": "ray-saheb-bazar",
+    "Ray Shaheb Bazar": "ray-saheb-bazar",
+
+    "Bashtola -": "bashtola",
+    "Jatrabari -": "jatrabari",
+    "Technical -": "technical",
+
+    "kakali": "kakali",
+
+    "Khamar Bari -": "khamar-bari",
+    "Khamarbari": "khamar-bari",
+
+    "Ring road": "ring-road",
+    "Rayerbag": "rayer-bazar",
+    "Sat rasta": "satrasta",
+    "Panthopoth": "panthapath",
+    "Azampur": "azimpur",
+    "Kolabagan": "kalabagan",
+    "Kalabagan City College": "kalabagan",
+    "Dhamra": "dhamrai",
+    "Shanir Akhra": "shonir-akhra",
+    "Mohammadpur Bus Stand": "mohammadpur",
+    "Rajlakshmi House Building": "rajlakshmi",
+
+    "Garrison (Cantonment)": "cantonment",
+
+    "Nobinagar Baipayl": "baipayl",
+    "Mogbazar Mohakhali": "mogbazar",
+    "Bangla Motor Shahbag": "bangla-motor",
+    "Press Club  Paltan": "paltan",
+    "Airport Jashimuddin (Uttara)": "airport",
+    "Farmgate Bijoy Sarani": "farmgate",
+    "Bashundhara (300 Feet Gate)": "bashundhara",
+    "Ittefaq Moor Sayedabad": "ittefaq-moor",
+    "Beribadh Tin Rastar Moor": "beribadh",
+    "Kazipara Shewrapara": "shewrapara",
+    "Purobi Pallabi": "purobi",
+    "Kalshi Pallabi": "kalshi",
+    "Nobinagar Chandra": "chandra",
+    "New Market Nilkhet": "new-market",
+    "Dhanmondi 32 Kalabagan": "kalabagan"
+  },
+
+  "_compound_comment": "These raw names look like TWO stops mashed together by whoever typed the data. A bus cannot stop at 'Mirpur 2 Mirpur 10' as a single place. We point them at the dominant component and flag them for a human to check the real bus route.",
+  "compound": {
+    "Mirpur 2 Mirpur 10": "mirpur-2",
+    "Khamar Bari Farmgate": "khamar-bari"
+  },
+
+  "_suspect_comment": "Gulistan appears in 48 buses, the 2nd most common stop. There is no neighbourhood called Gulistan in Dhaka, so this is almost certainly a misspelling of Gulshan. We do NOT auto-merge because Gulshan 1 / Gulshan 2 / Gulshan Link Road already exist as separate entries and we cannot tell which was meant. A human who rides these buses must decide. Until then it stays its own stop.",
+  "suspect": {
+    "gulistan": "Almost certainly a misspelling of Gulshan. Appears in 48 buses. Needs a local to confirm which Gulshan it is before merging."
+  },
+
+  "_tolerances_comment": "Applied to every raw name before slugging, unless the name is an explicit alias above. This catches stray punctuation, doubled spaces and case differences without needing an entry per typo.",
+  "tolerances": [
+    { "match": " -$", "replace": "" },
+    { "match": "^-\\s+", "replace": "" },
+    { "match": "\\s+", "replace": " " }
+  ]
+}
