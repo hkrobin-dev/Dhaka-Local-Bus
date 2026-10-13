@@ -1,5 +1,7 @@
 import type { Metadata, Viewport } from 'next';
 import { Hind_Siliguri, Inter } from 'next/font/google';
+import { Analytics } from '@vercel/analytics/react';
+import { SpeedInsights } from '@vercel/speed-insights/next';
 import './globals.css';
 import { ThemeProvider, themeInitScript } from '@/Utils/ThemeContext';
 import { LangProvider } from '@/Utils/LangContext';
@@ -63,6 +65,8 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             </StopSearchProvider>
           </LangProvider>
         </ThemeProvider>
+        <Analytics />
+        <SpeedInsights />
       </body>
     </html>
   );
